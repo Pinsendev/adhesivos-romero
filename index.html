@@ -1,0 +1,1340 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adhesivos Romero García</title>
+<meta name="description" content="Desde 1987, etiquetas autoadhesivas en impresión digital HP Indigo, flexografía y serigrafía. Beniaján, Murcia.">
+<!-- Propuesta de web: que no la indexe Google como si fuera la web oficial mientras no se publique en su dominio -->
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#FFFFFF">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Adhesivos Romero García">
+<meta property="og:description" content="Etiquetas autoadhesivas desde 1987: impresión digital HP Indigo, flexografía y serigrafía en Beniaján, Murcia.">
+<meta property="og:image" content="https://pinsendev.github.io/adhesivos-romero/img/compartir.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/banda-color-960.jpg" media="(max-width:960px)">
+<style>
+:root{
+  /* Colores corporativos tomados de romerogarcia.com (css/main.css) */
+  --accent:#009E62;        /* verde marca */
+  --accent-deep:#193D25;   /* verde bosque: textos y menú activo */
+  --accent-text:#00774A;   /* verde legible sobre blanco */
+  --accent-soft:#E5F5EF;   /* menta de bordes y destacados */
+  --accent-bright:#34D399; /* verde sobre fondos oscuros */
+  --brand:var(--accent);
+  --brand-ink:#FFFFFF;
+  --paper:#F5F5F7;
+  --surface:#FFFFFF;
+  --ink:#1D1D1F;
+  --ink-2:#424245;
+  --ink-3:#6E6E73;
+  --line:#D2D2D7;
+  --black:#07130C;
+  --tile-dark:#10241A;
+  --dark-line:#21402F;
+  --dark-text:#F2F7F4;
+  --dark-text-2:#9DB8A8;
+  --c:#00A0E3; --m:#E5007E; --y:#FFE000; --k:#1D1D1F;
+  --gold1:#7A5A12; --gold2:#F2D58A; --gold3:#B8872A;
+  --radius-s:10px; --radius-m:18px; --radius-l:30px;
+  --wrap:1080px;
+  --font:-apple-system,BlinkMacSystemFont,"SF Pro Display","Inter","Helvetica Neue",Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--surface);color:var(--ink);font-family:var(--font);font-size:17px;line-height:1.47;letter-spacing:-.011em;-webkit-font-smoothing:antialiased}
+img,svg{display:block;max-width:100%}
+a{color:inherit}
+button{font:inherit;cursor:pointer;letter-spacing:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:6px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 24px}
+@media (max-width:600px){.wrap{padding:0 16px}}
+
+/* Cabecera translúcida */
+.top{position:sticky;top:0;z-index:40;background:rgba(251,251,253,.8);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);border-bottom:1px solid rgba(0,0,0,.08)}
+.top .wrap{display:flex;align-items:center;gap:28px;height:52px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:600;font-size:16px;letter-spacing:-.02em;white-space:nowrap}
+.logo i{width:8px;height:8px;border-radius:50%;background:var(--accent);display:block}
+.nav{display:flex;gap:26px;margin-left:auto;font-size:13px}
+.nav a{text-decoration:none;color:var(--ink-2)}
+.nav a:hover{color:var(--ink)}
+.btn{white-space:nowrap;display:inline-flex;align-items:center;justify-content:center;gap:6px;border:0;border-radius:980px;padding:12px 24px;font-weight:500;font-size:17px;text-decoration:none;transition:background .2s,transform .15s}
+.btn:active{transform:scale(.98)}
+.btn-primary{background:#008556;color:#fff}
+.btn-primary:hover{background:#006F47}
+.btn-ghost{background:transparent;color:var(--accent-text);box-shadow:inset 0 0 0 1px var(--accent-text)}
+.btn-ghost:hover{background:var(--accent-text);color:#fff}
+.btn-dark{background:var(--ink);color:#fff}
+.btn-dark:hover{background:#000}
+.btn-link{color:var(--accent-text);text-decoration:none;font-size:19px;padding:12px 8px}
+.btn-link:hover{text-decoration:underline}
+.top .btn-portal{padding:6px 14px;font-size:13px}
+@media (max-width:900px),(hover:none){.top{backdrop-filter:none;-webkit-backdrop-filter:none;background:rgba(251,251,253,.97)}}
+.menu-btn{display:none;background:none;border:0;padding:8px;order:3}
+@media (max-width:360px){.lw{display:none}}
+@media (max-width:430px){.top .wrap{gap:10px}.logo{font-size:14px;gap:7px}.top .btn-portal{padding:6px 12px}}
+@media (max-width:900px){
+  .nav{display:none}
+  .menu-btn{display:block}
+  .top .btn-portal{margin-left:auto}
+  .nav.open{display:flex;flex-direction:column;position:absolute;top:52px;left:0;right:0;background:rgba(251,251,253,.97);padding:16px 24px 28px;border-bottom:1px solid var(--line);gap:18px;font-size:22px;font-weight:600}
+  .nav.open a{color:var(--ink)}
+}
+
+/* Hero */
+.hero{padding:96px 0 0;text-align:center;background:var(--surface);overflow:hidden}
+.kicker{background:linear-gradient(90deg,#009E62,#193D25);-webkit-background-clip:text;background-clip:text;color:transparent;font-weight:600;font-size:21px;margin:0 0 10px;letter-spacing:-.01em}
+.hero h1{margin:0 auto;font-weight:700;font-size:clamp(44px,7.4vw,84px);line-height:1.04;letter-spacing:-.035em;max-width:14ch}
+.hero p.lead{font-size:clamp(19px,2.2vw,24px);line-height:1.38;color:var(--ink-3);max-width:32em;margin:22px auto 30px;letter-spacing:-.015em}
+.hero-ctas{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;align-items:center}
+.hero-in{animation:rise 1.1s cubic-bezier(.2,.7,.2,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+.roll-stage{max-width:1080px;margin:64px auto 0;width:100%;animation:rise 1.3s .25s cubic-bezier(.2,.7,.2,1) both}
+.roll-stage svg{width:100%;height:auto}
+.web-strip{animation:feed 7s linear infinite}
+.paused .web-strip,.paused .roll-spin{animation-play-state:paused}
+@keyframes feed{from{transform:translateX(0)}to{transform:translateX(-150px)}}
+.roll-spin{transform-origin:270px 230px;animation:spin 7s linear infinite reverse}
+@keyframes spin{to{transform:rotate(360deg)}}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;padding:72px 0 96px;text-align:center}
+.facts strong{display:block;font-size:clamp(34px,4vw,48px);font-weight:700;letter-spacing:-.035em;line-height:1.1}
+.facts span{color:var(--ink-3);font-size:15px}
+@media (max-width:720px){.facts{grid-template-columns:repeat(2,1fr);gap:36px 16px;padding:56px 0 72px}}
+
+/* Secciones */
+section{scroll-margin-top:52px}
+.sec{padding:120px 0}
+@media (max-width:720px){.sec{padding:80px 0}}
+.sec-head{max-width:760px;margin:0 auto 60px;text-align:center}
+.sec-head h2{font-size:clamp(36px,5.2vw,64px);line-height:1.06;letter-spacing:-.035em;font-weight:700;margin:0 0 16px}
+.sec-head p{font-size:clamp(18px,2vw,22px);line-height:1.4;color:var(--ink-3);margin:0;letter-spacing:-.015em}
+
+/* Maquinaria (negro) */
+.press{background:radial-gradient(1200px 500px at 50% -10%,#14402A 0%,var(--black) 60%);color:var(--dark-text)}
+.press .sec-head p{color:var(--dark-text-2)}
+.tabs{display:flex;gap:4px;width:max-content;max-width:100%;margin:0 auto 44px;padding:4px;border-radius:980px;background:var(--tile-dark);overflow-x:auto}
+.tab{background:transparent;color:var(--dark-text-2);border:0;border-radius:980px;padding:9px 20px;font-weight:500;font-size:15px;white-space:nowrap}
+.tab[aria-selected="true"]{background:#F5F5F7;color:#1D1D1F}
+.machine{display:grid;grid-template-columns:1.15fr 1fr;gap:20px;align-items:stretch}
+@media (max-width:900px){.machine{grid-template-columns:1fr}}
+.schematic,.m-info{background:var(--tile-dark);border-radius:var(--radius-l);padding:36px}
+.schematic{display:flex;flex-direction:column;justify-content:space-between;min-height:360px}
+.schematic .cap{display:flex;justify-content:space-between;color:var(--dark-text-2);font-size:13px;margin-top:16px;gap:12px;flex-wrap:wrap}
+.photo-slot{margin-top:16px;border:1px dashed var(--dark-line);border-radius:var(--radius-m);padding:14px 16px;color:var(--dark-text-2);font-size:13px;text-align:center}
+.m-info h3{font-size:34px;letter-spacing:-.03em;margin:0 0 6px;font-weight:700}
+.m-info .sub{color:var(--dark-text-2);font-size:19px;margin:0 0 22px;line-height:1.4}
+.m-info ul{list-style:none;margin:0 0 24px;padding:0}
+.m-info li{padding:12px 0;border-top:1px solid var(--dark-line);display:flex;gap:14px;font-size:16px}
+.m-info li::before{content:"";flex:none;width:6px;height:6px;margin-top:9px;border-radius:50%;background:var(--accent-bright)}
+.m-info .ideal{font-size:15px;color:var(--dark-text-2);margin:0}
+.m-info .ideal b{color:var(--dark-text);font-weight:600}
+.invest{margin-top:20px;background:var(--tile-dark);border-radius:var(--radius-l);padding:44px;text-align:center}
+.invest strong{display:block;font-size:clamp(48px,7vw,80px);font-weight:700;letter-spacing:-.04em;line-height:1;color:var(--accent-bright);margin-bottom:14px}
+.invest p{margin:0 auto;color:var(--dark-text-2);max-width:40em;font-size:17px}
+
+/* Configurador */
+#configurador{background:var(--paper)}
+.config{display:grid;grid-template-columns:1.05fr 1fr;gap:20px;align-items:start}
+@media (max-width:900px){.config{grid-template-columns:1fr}}
+.preview{position:sticky;top:76px;background:var(--surface);border-radius:var(--radius-l);padding:32px}
+@media (max-width:900px){.preview{position:relative;top:0}}
+.config>div:last-child{background:var(--surface);border-radius:var(--radius-l);padding:32px}
+.liner{border-radius:var(--radius-m);padding:28px 0;overflow:hidden;transition:background .3s}
+.preview-bar{display:flex;justify-content:space-between;align-items:center;margin-top:16px;gap:12px;flex-wrap:wrap}
+.preview-bar small{color:var(--ink-3);font-size:13px}
+.flip-btn{background:var(--paper);border:0;border-radius:980px;padding:8px 16px;font-size:14px;font-weight:500}
+.flip-btn[hidden]{display:none}
+.rec{margin-top:20px;padding:20px 22px;border-radius:var(--radius-m);background:var(--accent-soft)}
+.rec h4{margin:0 0 4px;font-size:14px;color:var(--accent-text);font-weight:600}
+.rec p{margin:0;font-size:21px;font-weight:600;letter-spacing:-.02em}
+.rec .why{font-size:15px;color:var(--ink-2);font-weight:400;margin-top:6px;letter-spacing:-.01em}
+fieldset{border:0;margin:0 0 28px;padding:0}
+legend{font-weight:600;font-size:19px;margin-bottom:12px;padding:0;letter-spacing:-.02em}
+legend small{font-weight:400;color:var(--ink-3);margin-left:6px;font-size:15px}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.opt{position:relative}
+.opt input{position:absolute;opacity:0;inset:0;margin:0;cursor:pointer}
+.opt span{display:inline-block;padding:10px 16px;border-radius:var(--radius-s);border:1px solid var(--line);background:var(--surface);font-size:15px;transition:border-color .15s,background .15s}
+.opt input:checked+span{border:1px solid var(--accent);box-shadow:inset 0 0 0 1px var(--accent);background:var(--accent-soft)}
+.opt input:focus-visible+span{outline:3px solid var(--accent);outline-offset:2px}
+.range-row{display:flex;align-items:center;gap:16px}
+input[type=range]{flex:1;accent-color:var(--accent)}
+.range-val{min-width:110px;text-align:right;font-weight:600;font-variant-numeric:tabular-nums}
+.spec{margin-top:8px;font-size:14px;color:var(--ink-3)}
+
+/* Sectores */
+.sector-list{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:44px}
+.sector-btn{border:0;background:var(--paper);border-radius:980px;padding:10px 18px;font-weight:500;font-size:15px;color:var(--ink-2)}
+.sector-btn[aria-selected="true"]{background:var(--ink);color:#fff}
+.sector-panel{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:stretch}
+@media (max-width:860px){.sector-panel{grid-template-columns:1fr}}
+.sector-panel>div:first-child{background:var(--paper);border-radius:var(--radius-l);padding:44px;display:flex;flex-direction:column;justify-content:center}
+.sector-panel h3{font-size:clamp(28px,3.4vw,40px);line-height:1.08;margin:0 0 14px;letter-spacing:-.03em;font-weight:700}
+.sector-panel p{color:var(--ink-3);font-size:18px;margin:0 0 22px;max-width:40ch}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{background:var(--surface);border-radius:980px;padding:6px 12px;font-size:14px;color:var(--ink-2)}
+.product-stage{background:linear-gradient(180deg,#FBFBFD,#EDEDF0);border-radius:var(--radius-l);aspect-ratio:4/3;display:grid;place-items:center;overflow:hidden}
+.product-stage svg{width:70%;height:auto}
+
+/* Proceso */
+#proceso{background:var(--paper)}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.step{background:var(--surface);border-radius:var(--radius-l);padding:36px}
+.step .n{width:40px;height:40px;border-radius:50%;background:var(--accent-soft);color:var(--accent-deep);display:grid;place-items:center;font-weight:700;font-size:17px}
+.step h3{font-size:24px;margin:22px 0 8px;letter-spacing:-.025em}
+.step p{color:var(--ink-3);margin:0}
+@media (max-width:820px){.steps{grid-template-columns:1fr}}
+
+/* Calidad */
+.quality{display:block}
+.certs{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+@media (max-width:820px){.certs{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.certs{grid-template-columns:1fr}}
+.cert{background:var(--paper);border-radius:var(--radius-l);padding:30px;text-decoration:none;display:flex;flex-direction:column;gap:6px;transition:transform .2s}
+.cert:hover{transform:scale(1.015)}
+.cert b{font-size:24px;letter-spacing:-.025em}
+.cert span{color:var(--ink-3);font-size:15px}
+.cert em{font-style:normal;color:var(--accent-text);font-size:15px;margin-top:auto;padding-top:12px}
+.eco{grid-column:span 1;background:var(--ink);color:#fff;border-radius:var(--radius-l);padding:30px;display:flex;flex-direction:column;justify-content:center}
+.eco strong{font-size:48px;font-weight:700;letter-spacing:-.04em;line-height:1;color:var(--accent-bright);margin-bottom:8px}
+.eco p{margin:0;font-size:15px;color:var(--dark-text-2)}
+
+/* Contacto */
+.contact{background:radial-gradient(1000px 420px at 20% 0%,#123823 0%,var(--black) 60%);color:var(--dark-text)}
+.contact-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:20px}
+@media (max-width:860px){.contact-grid{grid-template-columns:1fr}}
+.contact-grid>div,.contact-grid>form{background:var(--tile-dark);border-radius:var(--radius-l);padding:40px}
+@media (max-width:520px){.contact-grid>div,.contact-grid>form{padding:28px 22px}}
+.contact h2{font-size:clamp(34px,4.6vw,52px);line-height:1.06;letter-spacing:-.035em;font-weight:700;margin:0 0 28px}
+.contact dl{margin:0;display:grid;gap:18px}
+.contact dt{color:var(--dark-text-2);font-size:14px}
+.contact dd{margin:2px 0 0;font-size:19px}
+.contact a{text-decoration:none;color:var(--accent-bright)}
+form.quote{display:grid;gap:14px;align-content:start}
+.field{display:grid;gap:6px}
+.field label{font-size:14px;color:var(--dark-text-2)}
+.field input,.field textarea,.field select{background:#183224;border:1px solid transparent;border-radius:12px;color:var(--dark-text);padding:13px 14px;font:inherit;font-size:16px}
+.field input:focus,.field textarea:focus,.field select:focus{border-color:var(--accent-bright);outline:none}
+.field textarea{min-height:120px;resize:vertical}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (max-width:520px){.row2{grid-template-columns:1fr}}
+.contact .btn-primary{justify-self:start}
+footer{background:var(--black);color:var(--dark-text-2);font-size:12px}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-top:22px;padding-bottom:28px;border-top:1px solid var(--dark-line)}
+
+/* Portal de clientes (demo) */
+.portal{position:fixed;inset:0;z-index:100;background:var(--paper);display:none;overflow:auto}
+.portal.open{display:block}
+.demo-band{background:var(--accent-deep);color:#fff;font-size:13px;font-weight:600;text-align:center;padding:8px 16px}
+.p-top{height:56px;border-bottom:1px solid rgba(0,0,0,.08);background:rgba(251,251,253,.9);display:flex;align-items:center}
+.p-top .wrap{display:flex;align-items:center;gap:16px;width:100%}
+.p-close{margin-left:auto;background:var(--surface);border:1px solid var(--line);border-radius:980px;padding:7px 16px;font-weight:500;font-size:14px}
+.login{max-width:460px;margin:80px auto;padding:0 16px;text-align:center}
+.login h2{font-size:40px;letter-spacing:-.035em;margin:0 0 10px}
+.login p{color:var(--ink-3);margin:0 0 32px;font-size:18px}
+.login .card{background:var(--surface);border-radius:var(--radius-l);padding:32px;text-align:left}
+.login label{font-size:14px;color:var(--ink-3);display:block;margin-bottom:6px}
+.login .fake-input{border:1px solid var(--line);border-radius:12px;padding:13px 14px;background:var(--paper);color:var(--ink-2);margin-bottom:20px}
+.login .btn{width:100%}
+.login .bul{margin:24px 0 0;padding:0;list-style:none;color:var(--ink-2);font-size:15px;display:grid;gap:10px}
+.login .bul li::before{content:"✓";color:var(--accent-text);font-weight:700;margin-right:10px}
+.dash{display:grid;grid-template-columns:240px 1fr;min-height:calc(100vh - 92px)}
+.side{padding:24px 14px;background:var(--surface);border-right:1px solid rgba(0,0,0,.06)}
+.side .who{padding:0 10px 20px;border-bottom:1px solid rgba(0,0,0,.06);margin-bottom:14px}
+.side .who b{display:block}
+.side .who span{font-size:13px;color:var(--ink-3);word-break:break-all}
+.side button{display:block;width:100%;text-align:left;background:none;border:0;padding:10px 12px;border-radius:10px;font-size:15px;color:var(--ink-2)}
+.side button[aria-current="page"]{background:var(--paper);color:var(--ink);font-weight:600}
+.side .count{float:right;background:var(--accent);color:#fff;border-radius:980px;font-size:12px;padding:1px 8px;font-weight:700}
+.main{padding:40px 44px 120px;max-width:1000px}
+.main h2{font-size:34px;margin:0 0 6px;letter-spacing:-.03em}
+.main .hint{color:var(--ink-3);margin:0 0 28px}
+@media (max-width:820px){
+  .dash{grid-template-columns:1fr}
+  .side{border-right:0;border-bottom:1px solid rgba(0,0,0,.06);padding:10px 16px;display:flex;gap:6px;overflow-x:auto}
+  .side .who{display:none}
+  .side button{white-space:nowrap;width:auto}
+  .main{padding:28px 16px 110px}
+}
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:28px}
+@media (max-width:640px){.kpis{grid-template-columns:1fr}}
+.kpi{background:var(--surface);border-radius:var(--radius-m);padding:22px}
+.kpi span{color:var(--ink-3);font-size:14px}
+.kpi b{display:block;font-size:32px;letter-spacing:-.03em;margin-top:4px}
+.tbl{width:100%;border-collapse:collapse;background:var(--surface);border-radius:var(--radius-m);overflow:hidden;font-size:15px}
+.tbl th{text-align:left;font-weight:500;color:var(--ink-3);font-size:13px;padding:14px 18px;border-bottom:1px solid rgba(0,0,0,.06)}
+.tbl td{padding:15px 18px;border-bottom:1px solid rgba(0,0,0,.06);font-variant-numeric:tabular-nums}
+.tbl tr:last-child td{border-bottom:0}
+.tbl .num{text-align:right}
+.tbl-wrap{overflow-x:auto;border-radius:var(--radius-m)}
+.pill{display:inline-block;padding:3px 10px;border-radius:980px;font-size:13px;font-weight:500}
+.pill.ok{background:#E3F5E8;color:#1D6B36}
+.pill.wait{background:var(--accent-soft);color:var(--accent-text)}
+.pill.info{background:#E8F0FB;color:#0B4FA3}
+.link-btn{background:none;border:0;color:var(--accent-text);font-weight:500;padding:0;font-size:15px}
+.order{background:var(--surface);border-radius:var(--radius-m);padding:24px;margin-bottom:14px}
+.order-head{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:18px}
+.order-head b{font-size:18px}
+.order-head span{color:var(--ink-3);font-size:14px}
+.track{display:grid;grid-template-columns:repeat(5,1fr);gap:6px}
+.track div{font-size:12px;color:var(--ink-3)}
+.track div::before{content:"";display:block;height:4px;border-radius:2px;background:#E5E5EA;margin-bottom:8px}
+.track div.done::before{background:var(--accent)}
+.track div.now{color:var(--ink);font-weight:600}
+.track div.now::before{background:linear-gradient(90deg,var(--accent) 50%,#E5E5EA 50%)}
+.order-foot{display:flex;gap:10px;margin-top:18px;flex-wrap:wrap}
+.btn-sm{padding:8px 16px;font-size:14px}
+.proof{display:grid;grid-template-columns:240px 1fr;gap:24px;background:var(--surface);border-radius:var(--radius-m);padding:24px;margin-bottom:14px;align-items:center}
+@media (max-width:640px){.proof{grid-template-columns:1fr}}
+.proof .thumb{background:var(--paper);border-radius:12px;padding:16px}
+.proof h3{margin:0 0 6px;font-size:19px}
+.proof p{margin:0 0 14px;color:var(--ink-3);font-size:15px}
+.toast{position:fixed;left:50%;bottom:28px;transform:translate(-50%,20px);background:rgba(29,29,31,.92);backdrop-filter:blur(10px);color:#fff;padding:12px 22px;border-radius:980px;font-size:15px;opacity:0;pointer-events:none;transition:all .25s;z-index:200}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+.inv-modal{position:fixed;inset:0;background:rgba(0,0,0,.4);backdrop-filter:blur(6px);z-index:150;display:none;place-items:center;padding:16px}
+.inv-modal.open{display:grid}
+.invoice{background:#fff;color:#1D1D1F;width:min(680px,100%);max-height:90vh;overflow:auto;border-radius:var(--radius-l);padding:40px}
+.invoice header{display:flex;justify-content:space-between;gap:16px;margin-bottom:28px;flex-wrap:wrap}
+.invoice h3{margin:0;font-size:26px;letter-spacing:-.02em}
+.invoice .muted{color:var(--ink-3);font-size:14px}
+.invoice table{width:100%;border-collapse:collapse;margin:20px 0;font-size:14px}
+.invoice th,.invoice td{padding:10px 0;border-bottom:1px solid #E5E5EA;text-align:left}
+.invoice td.r,.invoice th.r{text-align:right}
+.invoice .tot{display:flex;justify-content:flex-end;gap:40px;font-size:15px}
+.invoice .tot b{font-size:22px}
+.invoice .acts{display:flex;gap:10px;justify-content:flex-end;margin-top:28px}
+.watermark{color:var(--accent-text);font-weight:600;font-size:13px}
+@media print{
+  body *{visibility:hidden}
+  .invoice,.invoice *{visibility:visible}
+  .invoice{position:absolute;left:0;top:0;max-height:none}
+  .invoice .acts{display:none}
+}
+
+/* Fotos */
+.ph{position:relative;overflow:hidden;border-radius:var(--radius-m);background:#0d1f15}
+.ph img{width:100%;height:100%;object-fit:cover;display:block}
+.ph .tag{position:absolute;left:12px;bottom:12px;background:rgba(0,0,0,.55);backdrop-filter:blur(8px);color:#fff;font-size:11px;padding:4px 10px;border-radius:980px}
+.schematic .ph{aspect-ratio:16/10;margin-bottom:22px}
+.schematic{justify-content:flex-start}
+.product-stage{position:relative}
+.product-stage .ph{position:absolute;inset:0;border-radius:0}
+/* Las fotos reales de la planta (romerogarcia.com) */
+.step .ph{aspect-ratio:3/2;margin:0 0 26px;background:var(--paper)}
+.band-planta img{object-position:center 8%}
+/* Banda a sangre */
+.band{position:relative;height:min(86vh,760px);min-height:480px;overflow:hidden;background:#07130C;color:#fff}
+.band img{position:absolute;inset:0;width:100%;height:115%;object-fit:cover;transform:scale(1.04);will-change:transform}
+.band::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,19,12,.05) 30%,rgba(7,19,12,.85) 100%)}
+.band .wrap{position:relative;z-index:1;height:100%;display:flex;flex-direction:column;justify-content:flex-end;padding-bottom:72px}
+.band h2{font-size:clamp(40px,6.4vw,80px);line-height:1.02;letter-spacing:-.04em;margin:0 0 14px;max-width:13ch;font-weight:700}
+.band p{font-size:clamp(18px,2vw,22px);color:#D5E4DA;max-width:30em;margin:0}
+.band .tag{position:absolute;right:16px;top:16px;z-index:1;background:rgba(0,0,0,.5);font-size:11px;padding:4px 10px;border-radius:980px}
+/* Anatomía con scroll */
+.anat{height:320vh;background:var(--surface);position:relative}
+.anat-stick{position:sticky;top:52px;height:calc(100vh - 52px);display:grid;grid-template-columns:1fr 1.2fr;align-items:center;gap:40px;max-width:var(--wrap);margin:0 auto;padding:0 24px}
+.anat h2{font-size:clamp(34px,4.6vw,56px);line-height:1.05;letter-spacing:-.035em;margin:0 0 28px;font-weight:700}
+.anat ol{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.anat li{padding:12px 16px;border-radius:14px;color:var(--ink-3);transition:background-color .3s,color .3s}
+.anat li b{display:block;font-size:19px;letter-spacing:-.02em;color:inherit;font-weight:600}
+.anat li span{font-size:15px;display:block;opacity:.75}
+.anat li.on{background:var(--accent-soft);color:var(--accent-deep)}
+.anat li.on span{opacity:1}
+.stack{position:relative;height:min(70vh,560px);display:grid;place-items:center}
+.stack .lay{position:absolute;width:min(340px,62vw);aspect-ratio:3/2;will-change:transform;transition:opacity .35s ease}
+.stack .face{position:absolute;inset:0;border-radius:18px;transform:rotateX(58deg) rotateZ(-36deg)}
+.stack .face svg{width:100%;height:100%;border-radius:18px}
+.stack .face::after{content:"";position:absolute;inset:-1px;border-radius:19px;box-shadow:0 0 0 2px var(--accent);opacity:0;transition:opacity .35s ease;pointer-events:none}
+.stack .lay.hi .face::after{opacity:1}
+.stack .shadow{position:absolute;width:min(380px,70vw);aspect-ratio:3/1;border-radius:50%;background:radial-gradient(closest-side,rgba(7,19,12,.22),rgba(7,19,12,0));will-change:transform,opacity}
+.l0{background:repeating-linear-gradient(90deg,#F3E9C9 0 10px,#EFE2BA 10px 11px)}
+.l1{background:radial-gradient(circle,rgba(160,180,170,.55) 1px,transparent 1.6px) 0 0/8px 8px,rgba(230,240,235,.55)}
+.l2{background:#fff;box-shadow:inset 0 0 0 1px #E5E5EA}
+.l3{background:transparent}
+.l4{background:linear-gradient(120deg,rgba(255,255,255,0) 30%,rgba(255,255,255,.55) 45%,rgba(255,255,255,0) 60%)}
+
+@media (max-width:860px){
+  .anat{height:300vh}
+  .anat-stick{grid-template-columns:1fr;gap:0;align-content:center;padding:0 16px}
+  .anat h2{margin-bottom:12px;font-size:30px}
+  .anat li{padding:8px 12px}.anat li b{font-size:16px}.anat li span{font-size:13px}
+  .anat ol{display:block;min-height:76px}
+  .anat li{display:none}
+  .anat li.on{display:block}
+  .stack{height:46vh}
+}
+@media (prefers-reduced-motion:reduce){.anat{height:auto}.anat-stick{position:relative;height:auto;padding:100px 24px}}
+
+/* Seguimiento tipo logística */
+.p-top .bell{position:relative;margin-left:auto;background:none;border:0;padding:8px;border-radius:50%;color:var(--ink)}
+.p-top .bell:hover{background:var(--paper)}
+.p-top .bell b{position:absolute;top:2px;right:0;min-width:18px;height:18px;padding:0 5px;border-radius:9px;background:#E5484D;color:#fff;font-size:11px;line-height:18px;text-align:center;font-weight:700}
+.p-top .bell b:empty{display:none}
+.p-top .bell.ring svg{animation:ring .9s ease}
+@keyframes ring{0%,100%{transform:rotate(0)}15%{transform:rotate(14deg)}30%{transform:rotate(-12deg)}45%{transform:rotate(9deg)}60%{transform:rotate(-6deg)}75%{transform:rotate(3deg)}}
+.p-top .bell+.p-close{margin-left:8px}
+.trk-hero{position:relative;overflow:hidden;border-radius:var(--radius-l);padding:32px;color:#fff;background:radial-gradient(600px 260px at 85% 0%,#1E6B45 0%,transparent 60%),linear-gradient(135deg,#0E2A1B,#07130C);margin-bottom:16px}
+.trk-hero .code{font-size:13px;color:#9DB8A8}
+.trk-hero h3{font-size:clamp(28px,4vw,40px);letter-spacing:-.035em;margin:6px 0 6px;line-height:1.05}
+.trk-hero p{margin:0;color:#CFE3D7;font-size:17px}
+.trk-hero .eta{display:inline-flex;gap:8px;align-items:center;margin-top:18px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);padding:8px 14px;border-radius:980px;font-size:14px}
+.trk-hero .eta i{width:8px;height:8px;border-radius:50%;background:#34D399;box-shadow:0 0 0 0 rgba(52,211,153,.6);animation:pulse 1.8s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(52,211,153,.55)}70%{box-shadow:0 0 0 10px rgba(52,211,153,0)}100%{box-shadow:0 0 0 0 rgba(52,211,153,0)}}
+.rail{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;margin-top:26px}
+.rail div{height:6px;border-radius:3px;background:rgba(255,255,255,.14);position:relative;overflow:hidden}
+.rail div.done{background:#34D399}
+.rail div.now::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#34D399,rgba(52,211,153,.2),#34D399);background-size:200% 100%;animation:flow 1.6s linear infinite}
+@keyframes flow{from{background-position:200% 0}to{background-position:0 0}}
+.rail-labels{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;margin-top:8px;font-size:11px;color:#9DB8A8}
+.rail-labels span.on{color:#fff;font-weight:600}
+@media (max-width:640px){.rail-labels span{display:none}.rail-labels span.on{display:block;grid-column:1/-1}}
+.trk-grid{display:grid;grid-template-columns:1.25fr 1fr;gap:16px;align-items:start}
+@media (max-width:900px){.trk-grid{grid-template-columns:1fr}}
+.card{background:var(--surface);border-radius:var(--radius-m);padding:24px}
+.card h4{margin:0 0 16px;font-size:17px;letter-spacing:-.015em}
+.card+.card{margin-top:16px}
+.tl{list-style:none;margin:0;padding:0;position:relative}
+.tl li{position:relative;padding:0 0 22px 34px}
+.tl li:last-child{padding-bottom:0}
+.tl li::before{content:"";position:absolute;left:11px;top:22px;bottom:-2px;width:2px;background:#E5E5EA}
+.tl li:last-child::before{display:none}
+.tl li.done::before{background:var(--accent)}
+.tl .dot{position:absolute;left:0;top:0;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;background:#E5E5EA;color:#fff}
+.tl li.done .dot{background:var(--accent)}
+.tl li.now .dot{background:#fff;box-shadow:inset 0 0 0 2px var(--accent)}
+.tl li.now .dot::after{content:"";width:10px;height:10px;border-radius:50%;background:var(--accent);animation:pulse2 1.6s infinite}
+@keyframes pulse2{0%{box-shadow:0 0 0 0 rgba(0,158,98,.5)}70%{box-shadow:0 0 0 8px rgba(0,158,98,0)}100%{box-shadow:0 0 0 0 rgba(0,158,98,0)}}
+.tl b{display:block;font-size:16px}
+.tl li.todo b{color:var(--ink-3);font-weight:500}
+.tl small{display:block;color:var(--ink-3);font-size:13px;margin-top:2px}
+.tl .mailchip{display:inline-flex;gap:6px;align-items:center;margin-top:8px;font-size:12px;color:var(--accent-text);background:var(--accent-soft);padding:4px 10px;border-radius:980px;border:0;cursor:pointer}
+.tl li.fresh{animation:fresh 1.2s ease}
+@keyframes fresh{0%{background:var(--accent-soft)}100%{background:transparent}}
+.kv{display:grid;grid-template-columns:1fr auto;gap:10px 16px;font-size:15px}
+.kv span{color:var(--ink-3)}
+.kv b{font-weight:600;text-align:right;font-variant-numeric:tabular-nums}
+.live-bar{height:8px;border-radius:4px;background:#E5E5EA;overflow:hidden;margin:6px 0 16px}
+.live-bar i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),#34D399);border-radius:4px;transition:width .8s ease}
+.live-tag{display:inline-flex;gap:6px;align-items:center;font-size:12px;font-weight:600;color:#C2410C;background:#FFF1E6;padding:3px 10px;border-radius:980px;margin-left:8px;vertical-align:middle}
+.live-tag::before{content:"";width:6px;height:6px;border-radius:50%;background:#EA580C;animation:blink 1s infinite}
+@keyframes blink{50%{opacity:.2}}
+.switch{display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-top:1px solid rgba(0,0,0,.06);font-size:15px;gap:12px}
+.switch:first-of-type{border-top:0}
+.switch input{appearance:none;-webkit-appearance:none;width:44px;height:26px;border-radius:13px;background:#E5E5EA;position:relative;cursor:pointer;transition:background .2s;flex:none;margin:0}
+.switch input::after{content:"";position:absolute;top:2px;left:2px;width:22px;height:22px;border-radius:50%;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.25);transition:transform .2s}
+.switch input:checked{background:#34C759}
+.switch input:checked::after{transform:translateX(18px)}
+.rcpt{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.rcpt span{background:var(--paper);border-radius:980px;padding:5px 12px;font-size:13px}
+.demo-fab{position:fixed;right:20px;bottom:20px;z-index:120;display:flex;align-items:center;gap:10px;background:#1D1D1F;color:#fff;border:0;border-radius:980px;padding:12px 18px 12px 14px;font-size:14px;font-weight:600;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.demo-fab small{font-weight:500;color:#A1A1A6;font-size:12px;display:block}
+.demo-fab .ic{width:28px;height:28px;border-radius:50%;background:var(--accent);display:grid;place-items:center}
+.demo-fab[disabled]{opacity:.5}
+.demo-fab[hidden]{display:none}
+@media (max-width:820px){.side .count{float:none;margin-left:6px}}
+@media (max-width:600px){.main .chipset{flex-wrap:nowrap;overflow-x:auto;margin-left:-16px;margin-right:-16px;padding:0 16px;scrollbar-width:none}.main .chipset button{white-space:nowrap;flex:none}.main .lock{grid-template-columns:1fr;position:relative}.main .lock .ring{position:absolute;top:18px;right:18px;width:64px;height:64px}.main .lock .ring svg{width:64px;height:64px}.main .lock .ring b{font-size:17px}.main .lock small{padding-right:72px}}
+.portal.open~.toast{bottom:92px}
+@media (max-width:600px){.toast{max-width:calc(100vw - 32px);font-size:14px;border-radius:16px;text-align:center}.demo-fab{right:12px;bottom:12px;padding:10px 14px 10px 10px}.demo-fab small{display:none}}
+.ocard{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;cursor:pointer;transition:transform .2s}
+.ocard:hover{transform:translateY(-1px)}
+.ocard .st{font-size:13px;font-weight:600;color:var(--accent-text)}
+.ocard .mini{grid-column:1/-1;display:grid;grid-template-columns:repeat(7,1fr);gap:4px}
+.ocard .mini i{height:4px;border-radius:2px;background:#E5E5EA}
+.ocard .mini i.on{background:var(--accent)}
+/* Avisos: bandeja + correo */
+.inbox{display:grid;grid-template-columns:320px 1fr;gap:16px;align-items:start}
+@media (max-width:900px){.inbox{grid-template-columns:1fr}}
+.mlist{background:var(--surface);border-radius:var(--radius-m);overflow:hidden}
+.mlist button{display:grid;grid-template-columns:10px 1fr;gap:10px;width:100%;text-align:left;border:0;background:none;padding:14px 16px;border-bottom:1px solid rgba(0,0,0,.06)}
+.mlist button:last-child{border-bottom:0}
+.mlist button.sel{background:var(--accent-soft)}
+.mlist .u{width:8px;height:8px;border-radius:50%;margin-top:6px;background:transparent}
+.mlist button.unread .u{background:#0A84FF}
+.mlist b{display:block;font-size:14px;font-weight:600}
+.mlist button:not(.unread) b{font-weight:500}
+.mlist small{color:var(--ink-3);font-size:12px}
+.mlist button.fresh{animation:fresh 1.4s ease}
+.mframe{background:var(--surface);border-radius:var(--radius-m);overflow:hidden}
+.mframe .hdr{padding:16px 20px;border-bottom:1px solid rgba(0,0,0,.06);font-size:13px;color:var(--ink-3);display:grid;gap:3px}
+.mframe .hdr b{color:var(--ink);font-size:16px}
+.mframe .body{background:#F2F4F3;padding:28px 16px}
+.em{max-width:560px;margin:0 auto;background:#fff;border-radius:16px;overflow:hidden;font-family:var(--font);color:#1D1D1F}
+.em .em-top{background:#193D25;color:#fff;padding:18px 24px;font-weight:600;display:flex;align-items:center;gap:8px;font-size:15px;position:static;backdrop-filter:none;border:0}
+.em .em-top i{width:8px;height:8px;border-radius:50%;background:#34D399}
+.em .em-hero{padding:32px 28px 8px;text-align:center}
+.em .ico{width:64px;height:64px;border-radius:50%;background:#E5F5EF;display:grid;place-items:center;margin:0 auto 16px}
+.em h1{font-size:26px;letter-spacing:-.03em;margin:0 0 8px;line-height:1.15;max-width:none}
+.em .em-hero p{color:#6E6E73;margin:0;font-size:16px}
+.em .dots{display:flex;justify-content:center;gap:6px;margin:22px 0 4px}
+.em .dots i{width:28px;height:5px;border-radius:3px;background:#E5E5EA}
+.em .dots i.on{background:#009E62}
+.em .box{margin:20px 28px;border:1px solid #E5E5EA;border-radius:12px;padding:16px 18px;display:grid;grid-template-columns:1fr auto;gap:8px 16px;font-size:14px}
+.em .box span{color:#6E6E73}
+.em .box b{text-align:right;font-weight:600}
+.em .cta{display:block;width:max-content;margin:8px auto 28px;background:#008556;color:#fff;text-decoration:none;padding:13px 26px;border-radius:980px;font-weight:600;font-size:15px}
+.em .foot{background:#FAFAFA;color:#8E8E93;font-size:12px;padding:16px 28px;text-align:center;line-height:1.5}
+
+/* Precios dinámicos */
+.chipset{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
+.chipset button{border:0;background:var(--surface);border-radius:980px;padding:9px 16px;font-size:14px;font-weight:500;color:var(--ink-2)}
+.chipset button[aria-pressed="true"]{background:var(--ink);color:#fff}
+.pr-top{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px}
+@media (max-width:900px){.pr-top{grid-template-columns:1fr}}
+.lock{background:radial-gradient(500px 220px at 100% 0%,#1E6B45 0%,transparent 60%),linear-gradient(135deg,#0E2A1B,#07130C);color:#fff;border-radius:var(--radius-m);padding:26px;display:grid;grid-template-columns:1fr auto;gap:16px;align-items:center}
+.lock small{color:#9DB8A8;font-size:13px;display:block}
+.lock .big{font-size:clamp(34px,5vw,46px);font-weight:700;letter-spacing:-.04em;line-height:1.05;margin:6px 0}
+.lock .big span{display:block;font-size:15px;font-weight:500;color:#CFE3D7;letter-spacing:-.01em;margin-top:2px}
+.lock p{margin:0 0 16px;color:#CFE3D7;font-size:15px;max-width:34ch}
+.lock .ring{width:96px;height:96px;position:relative}
+.lock .ring b{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font-size:22px;line-height:1;letter-spacing:-.03em}
+.lock .ring b em{display:block;font-style:normal;font-size:11px;font-weight:500;color:#9DB8A8;margin-top:3px;letter-spacing:0}
+.lock .btn-primary{background:#34D399;color:#07130C}
+.lock .btn-primary:hover{background:#5EE0AE}
+.proj .seg{display:grid;grid-template-columns:repeat(6,1fr);background:var(--paper);border-radius:12px;padding:3px;margin:4px 0 18px}
+.proj .seg button{border:0;background:none;border-radius:9px;padding:8px 0;font-size:13px;font-weight:500;color:var(--ink-2)}
+.proj .seg button[aria-pressed="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.12)}
+.proj .val{font-size:34px;font-weight:700;letter-spacing:-.035em;font-variant-numeric:tabular-nums}
+.proj .val span{font-size:15px;font-weight:500;color:var(--ink-3);letter-spacing:-.01em}
+.proj .rng{color:var(--ink-3);font-size:14px;margin:2px 0 14px}
+.delta{display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:600;padding:4px 10px;border-radius:980px}
+.delta.up{background:#FFF1E6;color:#B4400C}
+.delta.flat{background:var(--accent-soft);color:var(--accent-text)}
+.proj .tip{margin:14px 0 0;font-size:14px;color:var(--ink-2);background:var(--paper);border-radius:12px;padding:12px 14px}
+.chart-card .sub{color:var(--ink-3);font-size:14px;margin:-10px 0 16px}
+.legend{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.legend button{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--surface);border-radius:980px;padding:6px 12px;font-size:13px;color:var(--ink)}
+.legend button i{width:10px;height:10px;border-radius:50%}
+.legend button[aria-pressed="false"]{color:var(--ink-3);border-style:dashed}
+.legend button[aria-pressed="false"] i{opacity:.35}
+.chart-wrap{position:relative}
+.chart-wrap svg{width:100%;height:auto;display:block;overflow:visible}
+.ctip{position:absolute;pointer-events:none;background:rgba(29,29,31,.94);color:#fff;border-radius:12px;padding:10px 12px;font-size:12px;min-width:150px;opacity:0;transition:opacity .12s;z-index:2}
+.ctip.on{opacity:1}
+.ctip b{display:block;font-size:13px;margin-bottom:6px}
+.ctip div{display:flex;justify-content:space-between;gap:14px;line-height:1.7}
+.ctip div span{display:inline-flex;align-items:center;gap:6px}
+.ctip div span i{width:8px;height:8px;border-radius:50%}
+.chart-foot{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center;margin-top:12px;font-size:12px;color:var(--ink-3)}
+.ptable{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums;margin-top:8px}
+.ptable th,.ptable td{padding:7px 8px;border-bottom:1px solid rgba(0,0,0,.06);text-align:right;white-space:nowrap}
+.ptable th:first-child,.ptable td:first-child{text-align:left}
+.ptable tr.fc td{color:var(--ink-3)}
+.mix-bars{display:grid;gap:10px}
+.mix-bars div{display:grid;grid-template-columns:120px 1fr 44px;gap:10px;align-items:center;font-size:14px}
+.mix-bars span.bar{height:8px;border-radius:4px;background:#E5E5EA;overflow:hidden}
+.mix-bars span.bar i{display:block;height:100%;border-radius:4px}
+.mix-bars b{text-align:right;font-variant-numeric:tabular-nums;font-weight:600}
+
+/* Blindaje móvil: nada puede ensanchar la página */
+html,body{max-width:100%;overflow-x:hidden}
+@supports (overflow:clip){html,body{overflow-x:clip}}
+.dash>*,.main,.pr-top>*,.trk-grid>*,.inbox>*,.config>*,.machine>*,.sector-panel>*,.contact-grid>*,.steps>*,.certs>*{min-width:0}
+@media (max-width:600px){
+  .btn{white-space:normal;text-align:center}
+  .top .btn{white-space:nowrap}
+  .preview,.config>div:last-child{padding:20px}
+  .schematic,.m-info,.invest,.sector-panel>div:first-child,.step,.cert,.eco{padding:24px}
+  .range-val{min-width:84px}
+}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a href="#inicio" class="logo" aria-label="Adhesivos Romero García, inicio">
+      <i aria-hidden="true"></i>
+      <span><span class="lw">Adhesivos </span>Romero García</span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#tecnologia">Maquinaria</a>
+      <a href="#anatomia">Etiqueta</a>
+      <a href="#configurador">Configurador</a>
+      <a href="#sectores">Sectores</a>
+      <a href="#calidad">Calidad</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <button class="menu-btn" aria-label="Abrir menú" aria-expanded="false" id="menuBtn">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 7h18M3 12h18M3 17h18"/></svg>
+    </button>
+    <button class="btn btn-primary btn-portal" data-open-portal>Área de clientes</button>
+  </div>
+</header>
+
+<main id="inicio">
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-in">
+      <p class="kicker">Etiquetas autoadhesivas desde 1987</p>
+      <h1>Etiquetas que venden antes de abrir el envase.</h1>
+      <p class="lead">Diseño, impresión digital HP Indigo, flexografía de hasta ocho colores y serigrafía. Todo bajo el mismo techo en Beniaján, Murcia.</p>
+      <div class="hero-ctas">
+        <a href="#configurador" class="btn btn-primary">Configurar una etiqueta</a>
+        <a href="#tecnologia" class="btn-link">Ver la maquinaria ›</a>
+      </div>
+    </div>
+    <div class="roll-stage" aria-hidden="true">
+      <svg viewBox="0 0 1080 460">
+        <defs>
+          <radialGradient id="rollG" cx=".42" cy=".38" r=".75"><stop offset="0" stop-color="#FFFFFF"/><stop offset=".75" stop-color="#EEF3F0"/><stop offset="1" stop-color="#D3DED8"/></radialGradient>
+          <linearGradient id="core" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#34D399"/><stop offset="1" stop-color="#00774A"/></linearGradient>
+          <linearGradient id="fade" x1="0" x2="1"><stop offset=".75" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff"/></linearGradient>
+          <clipPath id="webClip"><rect x="270" y="250" width="810" height="150"/></clipPath>
+          <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="18" stdDeviation="22" flood-opacity=".14"/></filter>
+        </defs>
+        <g clip-path="url(#webClip)">
+          <rect x="270" y="250" width="810" height="150" fill="#E5F5EF"/>
+          <g class="web-strip"><g id="lbls"></g></g>
+        </g>
+        <rect x="270" y="250" width="810" height="150" fill="url(#fade)"/>
+        <g filter="url(#soft)">
+          <circle cx="270" cy="230" r="200" fill="url(#rollG)"/>
+        </g>
+        <g class="roll-spin">
+          <circle cx="270" cy="230" r="175" fill="none" stroke="#E0E0E5" stroke-dasharray="2 7"/>
+          <circle cx="270" cy="230" r="145" fill="none" stroke="#E0E0E5" stroke-dasharray="2 9"/>
+          <circle cx="270" cy="230" r="115" fill="none" stroke="#E0E0E5" stroke-dasharray="2 11"/>
+        </g>
+        <circle cx="270" cy="230" r="66" fill="url(#core)"/>
+        <circle cx="270" cy="230" r="50" fill="#fff"/>
+      </svg>
+    </div>
+    <div class="facts">
+      <div><strong>1987</strong><span>fabricando etiquetas</span></div>
+      <div><strong>3</strong><span>tecnologías de impresión</span></div>
+      <div><strong>8 + barniz</strong><span>colores en flexografía</span></div>
+      <div><strong>100 %</strong><span>inspección para farmacia</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- BANDA FOTO: su HP Indigo, con la banda de control de color -->
+<section class="band" aria-label="Color exacto">
+  <img id="bandImg" src="img/banda-color.jpg" srcset="img/banda-color-960.jpg 960w, img/banda-color.jpg 1920w" sizes="100vw" alt="Impresora digital HP Indigo de la planta, con la banda de control de color" loading="lazy" onerror="this.remove()">
+  <div class="wrap">
+    <h2>El color de tu marca, exacto en cada bobina.</h2>
+    <p>Pruebas de color aprobadas antes de imprimir y control en máquina durante toda la tirada.</p>
+  </div>
+</section>
+
+<!-- ANATOMÍA -->
+<section class="anat" id="anatomia" aria-label="Anatomía de una etiqueta">
+  <div class="anat-stick">
+    <div>
+      <h2>Cinco capas. Ninguna al azar.</h2>
+      <ol id="anatList">
+        <li><b>Soporte</b><span>Glassine o poliéster: lo que tu etiquetadora necesita para ir rápida y sin cortes.</span></li>
+        <li><b>Adhesivo</b><span>Permanente, removible o para congelación, según superficie y temperatura.</span></li>
+        <li><b>Frontal</b><span>Couché, polipropileno, metalizado o papeles especiales de vino.</span></li>
+        <li><b>Impresión</b><span>Digital HP Indigo o flexografía de hasta ocho colores.</span></li>
+        <li><b>Acabado</b><span>Estampación, relieve, barniz o braille. El detalle que se toca.</span></li>
+      </ol>
+    </div>
+    <div class="stack" id="stack">
+      <div class="shadow" aria-hidden="true"></div>
+      <div class="lay"><div class="face l0"></div></div>
+      <div class="lay"><div class="face l1"></div></div>
+      <div class="lay"><div class="face l2"></div></div>
+      <div class="lay"><div class="face l3"><svg viewBox="0 0 300 200"><circle cx="150" cy="62" r="24" fill="none" stroke="#8C1C2B" stroke-width="3"/><path d="M138 68 q12 -22 24 0" fill="none" stroke="#8C1C2B" stroke-width="3"/><text x="150" y="122" text-anchor="middle" font-family="-apple-system, Inter, system-ui, sans-serif" font-weight="800" font-size="28" fill="#8C1C2B">Huerta Alta</text><text x="150" y="146" text-anchor="middle" font-family="-apple-system, Inter, system-ui, sans-serif" font-size="12" fill="#424245">Pimiento de bola · Murcia</text><rect x="40" y="166" width="220" height="6" rx="3" fill="#009E62" opacity=".8"/></svg></div></div>
+      <div class="lay"><div class="face l4"><svg viewBox="0 0 300 200"><defs><linearGradient id="gA" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7A5A12"/><stop offset=".45" stop-color="#F2D58A"/><stop offset="1" stop-color="#B8872A"/></linearGradient></defs><circle cx="150" cy="62" r="24" fill="none" stroke="url(#gA)" stroke-width="3.5"/><path d="M138 68 q12 -22 24 0" fill="none" stroke="url(#gA)" stroke-width="3.5"/><rect x="18" y="14" width="264" height="172" rx="12" fill="none" stroke="url(#gA)" stroke-width="1.5"/></svg></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- TECNOLOGÍA -->
+<section class="sec press" id="tecnologia">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>La sala de máquinas</h2>
+      <p>Cada tirada va a la tecnología que mejor la resuelve: digital para series cortas y cambios frecuentes, flexografía para volumen y serigrafía para tactos y relieves que no se pueden imprimir de otra forma.</p>
+    </div>
+    <div class="tabs" role="tablist" id="mTabs"></div>
+    <div class="machine" id="mPanel" role="tabpanel"></div>
+    <div class="invest">
+      <strong>1,15 M€</strong>
+      <p>Invertidos entre 2023 y 2024 en nueva maquinaria de impresión y una rebobinadora de acabado, con cofinanciación CDTI y FEDER, para aumentar capacidad y fiabilidad en cada bobina.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONFIGURADOR -->
+<section class="sec" id="configurador">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Diseña tu etiqueta en un minuto</h2>
+      <p>Elige material, adhesivo y acabados. Verás el resultado al momento y qué tecnología usaríamos para fabricarla.</p>
+    </div>
+    <div class="config">
+      <div class="preview">
+        <div class="liner" id="liner">
+          <svg id="labelSvg" viewBox="0 0 360 240" role="img" aria-label="Vista previa de la etiqueta"></svg>
+        </div>
+        <div class="preview-bar">
+          <small id="specLine">Couché · Permanente acrílico</small>
+          <button class="flip-btn" id="flipBtn" hidden>Ver el dorso</button>
+        </div>
+        <div class="rec">
+          <h4>La fabricaríamos en</h4>
+          <p id="recTech">Impresión digital HP Indigo</p>
+          <div class="why" id="recWhy"></div>
+        </div>
+      </div>
+      <div>
+        <fieldset>
+          <legend>Frontal</legend>
+          <div class="opts" data-group="front"></div>
+        </fieldset>
+        <fieldset>
+          <legend>Forma</legend>
+          <div class="opts" data-group="shape"></div>
+        </fieldset>
+        <fieldset>
+          <legend>Adhesivo</legend>
+          <div class="opts" data-group="glue"></div>
+        </fieldset>
+        <fieldset>
+          <legend>Acabados <small>puedes combinar varios</small></legend>
+          <div class="opts" data-group="finish"></div>
+        </fieldset>
+        <fieldset>
+          <legend>Tirada</legend>
+          <div class="range-row">
+            <input type="range" id="run" min="0" max="100" value="22" aria-label="Número de etiquetas">
+            <span class="range-val" id="runVal">2.000 uds.</span>
+          </div>
+          <div class="spec">Soporte glassine blanco o amarillo; poliéster para etiquetadoras de alta velocidad.</div>
+        </fieldset>
+        <a href="#contacto" class="btn btn-dark" id="quoteFromConfig" style="margin-top:4px">Pedir presupuesto con esta etiqueta</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTORES -->
+<section class="sec sectors" id="sectores">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Siete sectores. Una etiqueta para cada uno.</h2>
+      <p>Cada mercado tiene sus normas, sus máquinas etiquetadoras y su forma de llamar la atención en el lineal. Lo conocemos.</p>
+    </div>
+    <div class="sector-list" role="tablist" id="sTabs"></div>
+    <div class="sector-panel" id="sPanel"></div>
+  </div>
+</section>
+
+<!-- BANDA FOTO: la planta de Beniaján -->
+<section class="band band-planta" aria-label="La planta de Beniaján">
+  <img src="img/planta.jpg" srcset="img/planta-960.jpg 960w, img/planta.jpg 1920w" sizes="100vw" alt="Planta de Adhesivos GRYS Romero García en Beniaján, Murcia" loading="lazy" onerror="this.remove()">
+  <div class="wrap">
+    <h2>Todo bajo el mismo techo.</h2>
+    <p>Diseño, impresión, acabado e inspección en nuestra planta de Beniaján, Murcia.</p>
+  </div>
+</section>
+
+<!-- PROCESO -->
+<section class="sec" id="proceso">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>De la idea a la bobina</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><figure class="ph"><img src="img/paso-estudio.jpg" alt="Guía de colores sobre la mesa de trabajo" loading="lazy" onerror="this.parentNode.remove()"></figure><div class="n">1</div><h3>Estudiamos tu proyecto</h3><p>Analizamos el envase, la etiquetadora y las condiciones de uso para recomendar el material y el acabado que mejor funcionan.</p></div>
+      <div class="step"><figure class="ph"><img src="img/paso-diseno.jpg" alt="Departamento de diseño de la planta" loading="lazy" onerror="this.parentNode.remove()"></figure><div class="n">2</div><h3>Lo diseñamos</h3><p>Nuestro departamento de diseño prepara el arte final y la prueba de color para que apruebes exactamente lo que se va a imprimir.</p></div>
+      <div class="step"><figure class="ph"><img src="img/paso-fabrica.jpg" alt="Línea de impresión de la planta de Beniaján" loading="lazy" onerror="this.parentNode.remove()"></figure><div class="n">3</div><h3>Lo fabricamos</h3><p>Imprimimos, troquelamos, rebobinamos e inspeccionamos en nuestra planta de Beniaján, con trazabilidad de cada pedido.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CALIDAD -->
+<section class="sec" id="calidad">
+  <div class="wrap">
+    <div class="quality">
+      <div class="sec-head">
+        <h2>Calidad que se puede auditar</h2>
+        <p>Sistemas certificados por AENOR, cadena de custodia forestal y registro sanitario para etiquetado alimentario. Cada certificado se puede descargar.</p>
+      </div>
+      <div class="certs">
+        <a class="cert" href="https://www.romerogarcia.com/documentos/iso-9001.pdf" target="_blank" rel="noopener"><b>ISO 9001</b><span>Gestión de la calidad, certificada por AENOR</span><em>Descargar certificado</em></a>
+        <a class="cert" href="https://www.romerogarcia.com/documentos/iso-14001.pdf" target="_blank" rel="noopener"><b>ISO 14001</b><span>Gestión ambiental, certificada por AENOR</span><em>Descargar certificado</em></a>
+        <a class="cert" href="https://www.romerogarcia.com/documentos/aen-coc-000435.pdf" target="_blank" rel="noopener"><b>FSC</b><span>Cadena de custodia de papel de bosques gestionados</span><em>Descargar certificado</em></a>
+        <a class="cert" href="https://www.romerogarcia.com/documentos/pefc14-35-00586-aen.pdf" target="_blank" rel="noopener"><b>PEFC</b><span>Gestión forestal sostenible</span><em>Descargar certificado</em></a>
+        <a class="cert" href="https://www.romerogarcia.com/documentos/registro-sanitario.pdf" target="_blank" rel="noopener"><b>Registro sanitario</b><span>Consejería de Sanidad de la Región de Murcia, para etiquetado en contacto con alimentación</span><em>Descargar registro</em></a>
+        <div class="eco"><strong>−35 %</strong><p>de consumo de agua en 2021 respecto al año anterior, con segregación y reciclado de residuos en planta.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section class="sec contact" id="contacto">
+  <div class="wrap contact-grid">
+    <div>
+      <h2>Hablemos de tu próxima etiqueta</h2>
+      <dl>
+        <div><dt>Teléfono</dt><dd><a href="tel:+34968824157">968 824 157</a></dd></div>
+        <div><dt>Correo</dt><dd><a href="mailto:info@romerogarcia.com">info@romerogarcia.com</a></dd></div>
+        <div><dt>Planta</dt><dd>Camino de los Pinos, 116<br>30570 Beniaján, Murcia</dd></div>
+      </dl>
+    </div>
+    <form class="quote" id="quoteForm">
+      <div class="row2">
+        <div class="field"><label for="f-name">Nombre</label><input id="f-name" required autocomplete="name"></div>
+        <div class="field"><label for="f-company">Empresa</label><input id="f-company" autocomplete="organization"></div>
+      </div>
+      <div class="row2">
+        <div class="field"><label for="f-mail">Correo</label><input id="f-mail" type="email" required autocomplete="email"></div>
+        <div class="field"><label for="f-sector">Sector</label>
+          <select id="f-sector"><option>Alimentación</option><option>Bebidas y vino</option><option>Cosmética e higiene</option><option>Farmacia</option><option>Frutas y hortalizas</option><option>Automoción</option><option>Logística</option><option>Otro</option></select>
+        </div>
+      </div>
+      <div class="field"><label for="f-msg">¿Qué necesitas?</label><textarea id="f-msg" placeholder="Producto, medidas, cantidad aproximada, fecha…"></textarea></div>
+      <button class="btn btn-primary" type="submit">Enviar solicitud</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Adhesivos Romero García, S.L. · Etiquetas y Adhesivos GRYS</span>
+    <span>Proyecto cofinanciado por la Unión Europea (FEDER) y CDTI. Fotos de sectores provisionales (Unsplash).</span>
+  </div>
+</footer>
+
+<!-- PORTAL CLIENTES (DEMO) -->
+<div class="portal" id="portal" role="dialog" aria-modal="true" aria-label="Área de clientes">
+  <div class="demo-band">Demostración del área de clientes con datos ficticios</div>
+  <div class="p-top"><div class="wrap">
+    <span class="logo">
+      <i aria-hidden="true"></i>
+      <span>Área de clientes</span>
+    </span>
+    <button class="bell" id="pBell" aria-label="Avisos" hidden><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 1 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg><b id="bellN"></b></button><button class="p-close" id="pClose">Volver a la web</button>
+  </div></div>
+  <div id="pBody"></div>
+  <button class="demo-fab" id="demoFab" hidden><span class="ic"><svg width="14" height="14" viewBox="0 0 24 24" fill="#fff"><path d="M8 5v14l11-7z"/></svg></span><span>Avanzar pedido<small>Demo: simula el siguiente paso</small></span></button>
+</div>
+
+<div class="inv-modal" id="invModal"><div class="invoice" id="invBody"></div></div>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+(()=>{
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const toast=msg=>{const t=$('#toast');t.textContent=msg;t.classList.add('show');clearTimeout(t._h);t._h=setTimeout(()=>t.classList.remove('show'),2600)};
+
+/* menú móvil */
+$('#menuBtn').addEventListener('click',e=>{const n=$('#nav');const o=n.classList.toggle('open');e.currentTarget.setAttribute('aria-expanded',o)});
+$$('#nav a').forEach(a=>a.addEventListener('click',()=>$('#nav').classList.remove('open')));
+
+/* etiquetas en la banda del hero */
+(()=>{const g=$('#lbls');const cols=['#009E62','#193D25','#C9A15A','#8C1C2B','#009E62','#1D1D1F'];let h='';
+for(let i=0;i<9;i++){const x=320+i*150;const c=cols[i%cols.length];
+h+=`<g transform="translate(${x},266)"><rect width="124" height="118" rx="16" fill="#fff"/><circle cx="62" cy="40" r="18" fill="none" stroke="${c}" stroke-width="3"/><rect x="22" y="70" width="80" height="9" rx="4.5" fill="${c}"/><rect x="34" y="88" width="56" height="5" rx="2.5" fill="#D2D2D7"/></g>`}
+g.innerHTML=h})();
+
+/* ---------- Maquinaria ---------- */
+const machines=[
+ {id:'digital',name:'Impresión digital',brand:'HP Indigo',sub:'Calidad máxima sin planchas, desde la primera etiqueta.',dot:'var(--c)',
+  pts:['Sin planchas ni clichés: cambiar de diseño no tiene coste de arranque','Ideal para tiradas cortas, versiones y lanzamientos','Cada etiqueta puede ser distinta: numeraciones y datos variables','Reproducción fotográfica y degradados de calidad offset'],
+  ideal:'Producto de alto valor añadido, poca rotación o información legal que cambia a menudo.',
+  st:[{l:'Desbobinador',c:'#5B6878'},{l:'Tambor digital',c:'var(--c)',big:1},{l:'Barniz',c:'#9FB3C8'},{l:'Troquel',c:'#5B6878'},{l:'Rebobinador',c:'#5B6878'}]},
+ {id:'flexo',name:'Flexografía',brand:'Hasta 8 cuerpos',sub:'Volumen, consistencia y acabados en una sola pasada.',dot:'var(--m)',
+  pts:['Hasta ocho colores más barniz','Estampación en caliente y relieve en línea','Impresión al dorso, en espejo y sobre adhesivo','Coste por etiqueta muy bajo en grandes tiradas'],
+  ideal:'Referencias de gran consumo y tiradas largas con colores corporativos exactos.',
+  st:[{l:'Desb.',c:'#5B6878'},{l:'C',c:'var(--c)'},{l:'M',c:'var(--m)'},{l:'Y',c:'var(--y)'},{l:'K',c:'#0F141A'},{l:'P1',c:'#E35205'},{l:'P2',c:'#2E8B57'},{l:'P3',c:'#6A3FB5'},{l:'Oro',c:'#C9A15A'},{l:'Barniz',c:'#9FB3C8'},{l:'Troq.',c:'#5B6878'}]},
+ {id:'seri',name:'Serigrafía',brand:'Tacto y opacidad',sub:'Lo que se toca: relieves, braille y blancos totalmente opacos.',dot:'var(--y)',
+  pts:['Tintas con relieve y barniz tipo braille','Opacidad del 100 % sobre materiales transparentes','Efectos táctiles que realzan la marca','Cumplimiento del braille obligatorio en farmacia'],
+  ideal:'Cosmética premium, vinos y estuches de farmacia.',
+  st:[{l:'Desbobinador',c:'#5B6878'},{l:'Pantalla',c:'var(--y)',big:1},{l:'Curado UV',c:'#6A3FB5'},{l:'Troquel',c:'#5B6878'},{l:'Rebobinador',c:'#5B6878'}]},
+ {id:'acab',name:'Acabado e inspección',brand:'Rebobinadora',sub:'Cada bobina sale revisada, contada y lista para tu etiquetadora.',dot:'#2E8B57',
+  pts:['Rebobinado al sentido de salida de tu máquina','Inspección por visión del 100 % de las etiquetas','Detección y retirada de etiquetas defectuosas','Control de metros y número de etiquetas por bobina'],
+  ideal:'Laboratorios, alimentación con requisitos de trazabilidad y líneas automáticas de alta velocidad.',
+  st:[{l:'Desbobinador',c:'#5B6878'},{l:'Cámara de visión',c:'#2E8B57',big:1},{l:'Corte',c:'#5B6878'},{l:'Rebobinador',c:'#5B6878'}]}
+];
+/* Fotos reales de la planta (romerogarcia.com) en la maquinaria; las de sectores, de banco y provisionales */
+const MIMG={digital:'img/maq-digital.jpg',flexo:'img/maq-flexo.jpg',seri:'img/maq-seri.jpg',acab:'img/maq-acabado.jpg'};
+const SIMG={alim:'img/sector-alim',vino:'img/sector-vino',cosm:'img/sector-cosm',farma:'img/sector-farma',fruta:'img/sector-fruta',auto:'img/sector-auto',log:'img/sector-log'};
+const photo=(src,alt,o={})=>src?`<figure class="ph" style="margin:0"><img src="${src}"${o.set?` srcset="${o.set}-700.jpg 700w, ${o.set}.jpg 1200w" sizes="(max-width:860px) 100vw, 540px"`:''} alt="${alt}" loading="lazy" onerror="this.parentNode.remove()">${o.prov?'<span class="tag">Foto provisional</span>':''}</figure>`:'';
+function schematic(m){
+  const W=560,H=200,y=110,n=m.st.length,pad=24,gap=(W-pad*2)/n;
+  let s=`<svg viewBox="0 0 ${W} ${H}" aria-hidden="true"><line x1="10" y1="${y}" x2="${W-10}" y2="${y}" stroke="#6E6E73" stroke-width="2" stroke-dasharray="6 6"><animate attributeName="stroke-dashoffset" from="0" to="-24" dur="1s" repeatCount="indefinite"/></line>`;
+  m.st.forEach((t,i)=>{const cx=pad+gap*i+gap/2,r=t.big?Math.min(42,gap/2.1):Math.min(17,gap/2.6);
+    s+=`<circle cx="${cx}" cy="${y-r-4}" r="${r}" fill="${t.c}" opacity=".95"/><circle cx="${cx}" cy="${y+r+4}" r="${r*.7}" fill="none" stroke="#38383C" stroke-width="2"/><text x="${cx}" y="${y+r*2+30}" text-anchor="middle" font-size="${n>8?10:12}" fill="#A1A1A6" font-family="-apple-system, Inter, system-ui, sans-serif">${t.l}</text>`});
+  return s+'</svg>';
+}
+function renderMachine(id){
+  const m=machines.find(x=>x.id===id);
+  $$('#mTabs .tab').forEach(b=>b.setAttribute('aria-selected',b.dataset.id===id));
+  $('#mPanel').innerHTML=`<div class="schematic">${photo(MIMG[m.id],'Maquinaria de la planta de Beniaján')}${schematic(m)}<div class="cap"><span>Recorrido de la banda</span><span>${m.brand}</span></div></div>
+  <div class="m-info" style="--dot:${m.dot}"><h3>${m.name}</h3><p class="sub">${m.sub}</p><ul>${m.pts.map(p=>`<li>${p}</li>`).join('')}</ul><p class="ideal"><b>Ideal para:</b> ${m.ideal}</p></div>`;
+}
+$('#mTabs').innerHTML=machines.map(m=>`<button class="tab" role="tab" data-id="${m.id}">${m.name}</button>`).join('');
+$$('#mTabs .tab').forEach(b=>b.addEventListener('click',()=>renderMachine(b.dataset.id)));
+renderMachine('digital');
+
+/* ---------- Configurador ---------- */
+const opts={
+ front:[['couche','Couché'],['ppw','Polipropileno blanco'],['ppt','Polipropileno transparente'],['metal','Metalizado'],['termico','Térmico']],
+ shape:[['rect','Rectangular'],['round','Redonda'],['oval','Ovalada'],['die','Troquel especial']],
+ glue:[['perm','Permanente acrílico'],['hot','Permanente hotmelt'],['rem','Removible'],['frio','Congelación']],
+ finish:[['foil','Estampación oro'],['relief','Relieve'],['braille','Braille'],['holo','Holograma'],['dorso','Impresión al dorso'],['rasca','Rasca y gana']]
+};
+const state={front:'couche',shape:'rect',glue:'perm',finish:new Set(['foil']),back:false};
+Object.entries(opts).forEach(([g,list])=>{
+  const box=document.querySelector(`[data-group="${g}"]`);const multi=g==='finish';
+  box.innerHTML=list.map(([v,l])=>`<label class="opt"><input type="${multi?'checkbox':'radio'}" name="${g}" value="${v}" ${(multi?state.finish.has(v):state[g]===v)?'checked':''}><span>${l}</span></label>`).join('');
+  box.addEventListener('change',e=>{const i=e.target;if(multi){i.checked?state.finish.add(i.value):state.finish.delete(i.value);if(!state.finish.has('dorso'))state.back=false}else state[g]=i.value;drawLabel()});
+});
+const runSteps=v=>{const min=Math.log10(250),max=Math.log10(500000);return Math.round(Math.pow(10,min+(max-min)*v/100)/50)*50};
+const fmt=n=>n.toLocaleString('es-ES');
+$('#run').addEventListener('input',drawLabel);
+$('#flipBtn').addEventListener('click',()=>{state.back=!state.back;drawLabel()});
+
+function shapePath(sh){
+  switch(sh){
+    case 'round':return '<circle cx="180" cy="120" r="100"/>';
+    case 'oval':return '<ellipse cx="180" cy="120" rx="150" ry="98"/>';
+    case 'die':return '<path d="M60 40 Q180 0 300 40 L320 120 Q330 170 300 200 Q180 240 60 200 Q30 170 40 120 Z"/>';
+    default:return '<rect x="30" y="24" width="300" height="192" rx="14"/>';
+  }
+}
+function drawLabel(){
+  const f=state.finish,s=$('#labelSvg');
+  const n=runSteps(+$('#run').value);$('#runVal').textContent=fmt(n)+' uds.';
+  const fills={couche:'#FFFFFF',ppw:'url(#gloss)',ppt:'url(#clear)',metal:'url(#silver)',termico:'#FBFBF8'};
+  const inkMain=state.front==='metal'?'#1C2127':'#1C2127';
+  const liner=$('#liner');liner.style.background=state.glue==='frio'?'#E9F3FA':(state.front==='ppt'?'#C9DCEA':'#F3E9C9');
+  $('#flipBtn').hidden=!f.has('dorso');$('#flipBtn').textContent=state.back?'Ver el frente':'Ver el dorso';
+  const titleFill=f.has('foil')?'url(#gold)':'#8C1C2B';
+  const relief=f.has('relief')?'filter="url(#emboss)"':'';
+  let front=`
+    <g ${relief}>
+      <circle cx="180" cy="${state.shape==='rect'?72:70}" r="24" fill="none" stroke="${f.has('foil')?'url(#gold)':'#8C1C2B'}" stroke-width="3"/>
+      <path d="M168 ${state.shape==='rect'?78:76} q12 -22 24 0" fill="none" stroke="${f.has('foil')?'url(#gold)':'#8C1C2B'}" stroke-width="3"/>
+    </g>
+    <text x="180" y="128" text-anchor="middle" font-family="-apple-system, Inter, system-ui, sans-serif" font-weight="800" font-size="30" fill="${titleFill}" ${relief}>Huerta Alta</text>
+    <text x="180" y="152" text-anchor="middle" font-family="-apple-system, Inter, system-ui, sans-serif" font-size="13" fill="${state.front==='termico'?'#333':inkMain}" opacity=".8">Pimiento de bola · Murcia</text>
+    ${state.front==='termico'?'<text x="180" y="176" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11" fill="#333">LOTE 26-1027  CAD 27/10/2027</text>':''}
+    ${f.has('braille')?braille(180,state.shape==='rect'?196:186):''}
+    ${f.has('holo')?'<g transform="translate('+({rect:'278,170',round:'246,178',oval:'282,160',die:'276,168'}[state.shape])+')"><circle r="18" fill="url(#holo)"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/></circle><circle r="18" fill="none" stroke="#fff" opacity=".6"/></g>':''}
+    ${f.has('rasca')?`<g id="scratch" style="cursor:pointer"><rect x="62" y="160" width="70" height="30" rx="6" fill="#E8EDF2"/><text x="97" y="180" text-anchor="middle" font-family="-apple-system, Inter, system-ui, sans-serif" font-weight="700" font-size="12" fill="var(--m)">¡PREMIO!</text><rect id="scrCover" x="62" y="160" width="70" height="30" rx="6" fill="url(#silver)"/><text id="scrTxt" x="97" y="179" text-anchor="middle" font-family="-apple-system, Inter, system-ui, sans-serif" font-size="10" fill="#4A525C">Rasca aquí</text></g>`:''}
+  `;
+  let back=`<text x="180" y="70" text-anchor="middle" font-family="-apple-system, Inter, system-ui, sans-serif" font-weight="700" font-size="14" fill="#1C2127">Información nutricional</text>
+    ${[0,1,2,3,4].map(i=>`<rect x="90" y="${88+i*20}" width="180" height="1" fill="#CDD3DA"/><text x="90" y="${102+i*20}" font-family="-apple-system, Inter, system-ui, sans-serif" font-size="11" fill="#4A525C">${['Valor energético','Grasas','Hidratos','Proteínas','Sal'][i]}</text><text x="270" y="${102+i*20}" text-anchor="end" font-family="-apple-system, Inter, system-ui, sans-serif" font-size="11" fill="#4A525C">${['1340 kJ','0,4 g','6,1 g','1,2 g','0,02 g'][i]}</text>`).join('')}`;
+  s.innerHTML=`<defs>
+    <clipPath id="lbl">${shapePath(state.shape)}</clipPath>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="var(--gold1)"/><stop offset=".45" stop-color="var(--gold2)"/><stop offset="1" stop-color="var(--gold3)"/></linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C9CED4"/><stop offset=".5" stop-color="#F4F6F8"/><stop offset="1" stop-color="#AEB5BD"/></linearGradient>
+    <linearGradient id="gloss" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff"/><stop offset=".5" stop-color="#F4F7FA"/><stop offset="1" stop-color="#fff"/></linearGradient>
+    <linearGradient id="clear" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".35"/><stop offset="1" stop-color="#fff" stop-opacity=".15"/></linearGradient>
+    <linearGradient id="holo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF7AC6"/><stop offset=".33" stop-color="#7AE1FF"/><stop offset=".66" stop-color="#C6FF7A"/><stop offset="1" stop-color="#FFD37A"/></linearGradient>
+    <filter id="emboss"><feDropShadow dx="0" dy="1.5" stdDeviation=".6" flood-color="#000" flood-opacity=".35"/><feDropShadow dx="0" dy="-1" stdDeviation=".3" flood-color="#fff" flood-opacity=".9"/></filter>
+    <filter id="sh"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity=".12"/></filter>
+  </defs>
+  <g filter="url(#sh)"><g clip-path="url(#lbl)"><rect width="360" height="240" fill="${fills[state.front]}"/>
+    ${state.front==='ppt'?'<rect width="360" height="240" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="2"/>':''}
+    ${state.back?back:front}
+  </g></g>
+  <g fill="none" stroke="#8E9AAA" stroke-opacity=".5" stroke-dasharray="3 4">${shapePath(state.shape).replace('/>',' />')}</g>`;
+  const sc=s.querySelector('#scratch');if(sc)sc.addEventListener('click',()=>{const c=s.querySelector('#scrCover'),t=s.querySelector('#scrTxt');c.style.transition='opacity .5s';c.style.opacity=0;t.style.opacity=0});
+  // especificación y recomendación
+  const name=(g,v)=>opts[g].find(o=>o[0]===v)[1];
+  const fin=[...f].map(v=>name('finish',v));
+  $('#specLine').textContent=[name('front',state.front),name('glue',state.glue),...fin].join(' · ');
+  let tech,why;
+  const needSeri=f.has('braille')||f.has('relief')&&state.front==='ppt';
+  if(n<15000){tech='Impresión digital HP Indigo';why=`Para ${fmt(n)} etiquetas no compensa grabar planchas: sale más rápido y económico, y puedes cambiar el diseño en la siguiente tirada.`}
+  else{tech='Flexografía';why=`Con ${fmt(n)} etiquetas la flexografía da el menor coste por unidad y colores corporativos exactos tirada tras tirada.`}
+  if(f.has('foil')||f.has('holo'))why+=' La estampación se aplica en línea.';
+  if(needSeri){tech+=' + serigrafía';why+=' El braille y los relieves táctiles se aplican por serigrafía.'}
+  if(state.glue==='frio')why+=' Adhesivo especial que mantiene la adherencia en congelación.';
+  $('#recTech').textContent=tech;$('#recWhy').textContent=why;
+}
+function braille(cx,cy){let d='';const pat=[[1,1,0,1,0,0],[1,0,1,1,0,0],[1,1,1,0,1,0],[0,1,1,1,0,1]];
+  pat.forEach((p,i)=>p.forEach((on,j)=>{if(on){const x=cx-30+i*16+(j%2)*6,y=cy-8+Math.floor(j/2)*6;d+=`<circle cx="${x}" cy="${y}" r="2" fill="#fff" filter="url(#emboss)"/>`}}));
+  return `<rect x="${cx-38}" y="${cy-14}" width="76" height="24" rx="4" fill="#1C2127" opacity=".06"/>`+d}
+drawLabel();
+$('#quoteFromConfig').addEventListener('click',()=>{
+  $('#f-msg').value=`Quiero presupuesto para: ${$('#specLine').textContent}. Tirada aproximada: ${$('#runVal').textContent}`;
+});
+
+/* ---------- Sectores ---------- */
+const sectors=[
+ {id:'alim',n:'Alimentación',t:'Etiquetas que cumplen la normativa y abren el apetito',p:'Información alimentaria completa, materiales aptos y adhesivos que aguantan frío, humedad y grasa. Con registro sanitario para etiquetado alimentario.',s:['Impresión al dorso','Indicadores térmicos','Numeradas','Adhesivo de congelación'],c:'#C8102E',shape:'jar'},
+ {id:'vino',n:'Bebidas y vino',t:'Una botella se elige por su etiqueta',p:'Papeles texturizados para el sector vinícola, estampación, relieve y barnices que convierten la etiqueta en parte de la marca.',s:['Estampación en oro','Relieve','Papeles especiales de vino','Efecto espejo'],c:'#5A1A2B',shape:'bottle'},
+ {id:'cosm',n:'Cosmética e higiene',t:'El tacto también vende',p:'Polipropileno transparente con blanco opaco, acabados táctiles y metalizados para un lineal donde todo compite por la mirada.',s:['Serigrafía con relieve','Transparente sin etiqueta visible','Rasca y huele','Metalizados'],c:'#E5007E',shape:'tube'},
+ {id:'farma',n:'Farmacia',t:'Cero errores, etiqueta a etiqueta',p:'Inspección por visión del 100 % de la producción, braille y trazabilidad, como exige la industria farmacéutica.',s:['Inspección 100 %','Braille','Hologramas antifalsificación','Numeración variable'],c:'#0A6CAD',shape:'box'},
+ {id:'fruta',n:'Frutas y hortalizas',t:'Del campo de Murcia al lineal de Europa',p:'Etiquetas de calibre, origen y trazabilidad para cajas, mallas y tarrinas, que resisten cámaras frigoríficas y transporte.',s:['Adhesivos para humedad','Etiquetas de caja','Trazabilidad','Polietileno flexible'],c:'#2E8B57',shape:'fruit'},
+ {id:'auto',n:'Automoción',t:'Identificación que aguanta lo que haga falta',p:'Materiales sintéticos resistentes a aceites, temperatura y abrasión para identificación de piezas y advertencias.',s:['Poliéster','Adhesivos de alto agarre','Numeradas','Hologramas'],c:'#33404F',shape:'part'},
+ {id:'log',n:'Logística',t:'Etiquetas en blanco listas para imprimir',p:'Etiquetas anónimas en continuo y térmicas para impresoras de almacén, en el formato y el mandril que use tu sistema.',s:['Térmicas sin ribbon','Anónimas en continuo','Removibles','Poliéster de alta velocidad'],c:'#E35205',shape:'parcel'}
+];
+function productSvg(s){
+  const c=s.c;
+  const shapes={
+   jar:`<rect x="90" y="40" width="140" height="30" rx="6" fill="#C9A15A"/><rect x="80" y="70" width="160" height="170" rx="24" fill="#F4E9D8"/><rect x="80" y="110" width="160" height="90" fill="#fff"/><rect x="80" y="110" width="160" height="26" fill="${c}"/>`,
+   bottle:`<rect x="142" y="10" width="36" height="70" rx="6" fill="#2B2B2B"/><path d="M142 80 Q110 110 110 150 V250 H210 V150 Q210 110 178 80Z" fill="#203427"/><rect x="118" y="160" width="84" height="70" rx="4" fill="#F6EFE2"/><rect x="128" y="170" width="64" height="8" fill="${c}"/><rect x="138" y="210" width="44" height="3" fill="#C9A15A"/>`,
+   tube:`<rect x="120" y="20" width="80" height="34" rx="8" fill="#1C2127"/><path d="M110 54 H210 L220 250 H100Z" fill="#F7E4EE"/><rect x="112" y="110" width="96" height="100" fill="#fff" opacity=".7"/><rect x="124" y="130" width="72" height="10" rx="5" fill="${c}"/>`,
+   box:`<path d="M80 80 L160 40 L240 80 L240 220 L160 260 L80 220Z" fill="#fff" stroke="#DCE0E5"/><path d="M80 80 L160 120 L240 80" fill="none" stroke="#DCE0E5"/><path d="M160 120 V260" stroke="#DCE0E5"/><rect x="92" y="120" width="56" height="28" fill="${c}" transform="skewY(26)"/>`,
+   fruit:`<path d="M60 150 H260 L240 240 H80Z" fill="#B88A5A"/><circle cx="120" cy="140" r="34" fill="#C8102E"/><circle cx="170" cy="130" r="36" fill="#E35205"/><circle cx="215" cy="142" r="32" fill="#2E8B57"/><rect x="120" y="180" width="80" height="40" rx="4" fill="#fff"/><rect x="128" y="188" width="40" height="8" fill="${c}"/>`,
+   part:`<circle cx="160" cy="150" r="90" fill="#8E9AAA"/><circle cx="160" cy="150" r="34" fill="var(--paper)"/><rect x="190" y="70" width="80" height="44" rx="4" fill="#fff"/><rect x="198" y="78" width="40" height="8" fill="${c}"/><rect x="198" y="94" width="64" height="4" fill="#CDD3DA"/>`,
+   parcel:`<rect x="60" y="80" width="200" height="150" fill="#C9A06A"/><rect x="60" y="80" width="200" height="20" fill="#B88A5A"/><rect x="150" y="120" width="96" height="80" fill="#fff"/>${[0,1,2,3,4,5,6,7,8,9,10,11].map(i=>`<rect x="${158+i*6.5}" y="170" width="${i%3?2:4}" height="22" fill="#1C2127"/>`).join('')}<rect x="158" y="130" width="40" height="8" fill="${c}"/>`
+  };
+  return `<svg viewBox="0 0 320 270" aria-hidden="true">${shapes[s.shape]}</svg>`;
+}
+function renderSector(id){
+  const s=sectors.find(x=>x.id===id);
+  $$('#sTabs .sector-btn').forEach(b=>b.setAttribute('aria-selected',b.dataset.id===id));
+  $('#sPanel').innerHTML=`<div><h3>${s.t}</h3><p>${s.p}</p><div class="chips">${s.s.map(x=>`<span class="chip">${x}</span>`).join('')}</div></div><div class="product-stage">${productSvg(s)}${photo(SIMG[s.id]+'.jpg',s.n,{prov:1,set:SIMG[s.id]})}</div>`;
+}
+$('#sTabs').innerHTML=sectors.map(s=>`<button class="sector-btn" role="tab" data-id="${s.id}">${s.n}</button>`).join('');
+$$('#sTabs .sector-btn').forEach(b=>b.addEventListener('click',()=>renderSector(b.dataset.id)));
+renderSector('alim');
+
+/* formulario de contacto */
+$('#quoteForm').addEventListener('submit',e=>{e.preventDefault();
+  const body=`Nombre: ${$('#f-name').value}\nEmpresa: ${$('#f-company').value}\nCorreo: ${$('#f-mail').value}\nSector: ${$('#f-sector').value}\n\n${$('#f-msg').value}`;
+  location.href=`mailto:info@romerogarcia.com?subject=${encodeURIComponent('Solicitud de presupuesto web')}&body=${encodeURIComponent(body)}`;
+});
+
+/* ---------- Portal de clientes (demo) ---------- */
+const client={name:'Conservas Huerta Alta (ejemplo)',mail:'compras@huerta-alta.example',nif:'B00000000'};
+const invoices=[
+ {n:'FV-2026-1184',d:'21/10/2026',a:3482.60,st:'Pendiente',due:'20/11/2026',lines:[['Etiqueta 100×70 Pimiento de bola, couché, oro',40000,0.072],['Etiqueta 60×40 dorso nutricional',40000,0.0145]]},
+ {n:'FV-2026-1092',d:'29/09/2026',a:2196.15,st:'Pagada',lines:[['Etiqueta 90×60 Alcachofa, PP blanco',30000,0.0605]]},
+ {n:'FV-2026-0987',d:'02/09/2026',a:1452.00,st:'Pagada',lines:[['Etiqueta Ø50 Edición limitada, digital',12000,0.1]]},
+ {n:'FV-2026-0851',d:'24/07/2026',a:3908.90,st:'Pagada',lines:[['Etiqueta 100×70 Pimiento de bola, couché, oro',45000,0.0718]]},
+ {n:'FV-2026-0703',d:'19/06/2026',a:968.00,st:'Pagada',lines:[['Etiqueta térmica 100×150 logística',40000,0.02]]}
+];
+invoices.forEach(i=>i.a=Math.round(i.lines.reduce((t,l)=>t+l[1]*l[2],0)*1.21*100)/100);
+const steps=['Pedido confirmado','Arte aprobado','En impresión','Acabado y troquelado','Inspección de calidad','En reparto','Entregado'];
+const stepCopy=[
+ {t:'Hemos recibido tu pedido',d:'Lo hemos revisado y ya tiene fecha de fabricación.'},
+ {t:'Arte final aprobado',d:'La prueba de color está aprobada. Pasamos a máquina.'},
+ {t:'Tu pedido está en impresión',d:'Tus etiquetas ya están en máquina.'},
+ {t:'Acabado y troquelado',d:'Damos forma a cada etiqueta y rebobinamos al sentido de tu etiquetadora.'},
+ {t:'Inspección de calidad',d:'Revisamos por visión artificial el 100 % de las etiquetas.'},
+ {t:'Tu pedido va de camino',d:'Ha salido de nuestra planta de Beniaján.'},
+ {t:'Pedido entregado',d:'Tus etiquetas ya están en tu almacén.'}
+];
+const orders=[
+ {n:'PD-26-4460',p:'Tomate triturado 120×80',q:50000,step:4,eta:'jueves 30 de octubre',slot:'8:00 – 14:00',machine:'Flexografía 8 colores',rolls:14,boxes:'3 cajas · 41 kg',carrier:'Reparto propio Romero García',trk:'RG-4460-01',to:'Pol. Ind. Oeste, nave 12 · Alcantarilla',col:'#C8102E',
+  ev:[[0,'22 oct · 10:14','Pedido por compras@'],[1,'23 oct · 12:40','Prueba v3 aprobada'],[2,'27 oct · 08:05','Flexografía 8 colores'],[3,'27 oct · 12:30','Troquel 120×80, 14 bobinas'],[4,'27 oct · 15:10','Visión artificial 100 %']]},
+ {n:'PD-26-4471',p:'Alcachofa en aceite 90×60',q:30000,step:2,eta:'miércoles 5 de noviembre',slot:'8:00 – 14:00',machine:'HP Indigo digital',rolls:8,boxes:'2 cajas · 24 kg',carrier:'Agencia de transporte',trk:'RG-4471-01',to:'Pol. Ind. Oeste, nave 12 · Alcantarilla',col:'#2E8B57',
+  ev:[[0,'24 oct · 09:02','Pedido por compras@'],[1,'27 oct · 09:30','Prueba v1 aprobada'],[2,'27 oct · 11:45','HP Indigo digital']]},
+ {n:'PD-26-4388',p:'Pimiento de bola 100×70',q:40000,step:6,eta:'lunes 20 de octubre',slot:'',machine:'Flexografía 8 colores',rolls:12,boxes:'3 cajas · 36 kg',carrier:'Reparto propio Romero García',trk:'RG-4388-01',to:'Pol. Ind. Oeste, nave 12 · Alcantarilla',col:'#8C1C2B',
+  ev:[[0,'13 oct · 10:20',''],[1,'14 oct · 13:05',''],[2,'16 oct · 07:50',''],[3,'16 oct · 13:10',''],[4,'17 oct · 09:40',''],[5,'20 oct · 08:15','Salida de Beniaján'],[6,'20 oct · 10:42','Firmado por: Almacén']]}
+];
+const prefs=[true,true,true,false,true,true,true];
+const recipients=['compras@huerta-alta.example','calidad@huerta-alta.example'];
+let mails=[];let mailSeq=0;
+function mkMail(o,st,time,read){mails.unshift({id:++mailSeq,o:o.n,st,time,read,fresh:false})}
+orders.slice().reverse().forEach(o=>o.ev.forEach(([st,t])=>{if(prefs[st])mkMail(o,st,t,true)}));
+mails.sort((x,y)=>y.id-x.id);
+mails.find(m=>m.o==='PD-26-4460'&&m.st===4).read=false;
+mails.sort((x,y)=>{const k=m=>orders.find(o=>o.n===m.o).ev.find(e=>e[0]===m.st)[1];return k(y).localeCompare(k(x))});
+let selMail=null,liveTimer=null,trkOrder='PD-26-4460';
+const nowStamp=()=>{const d=new Date();return '27 oct · '+String(d.getHours()).padStart(2,'0')+':'+String(d.getMinutes()).padStart(2,'0')};
+const proofs=[{id:'pr1',n:'Melocotón en almíbar 110×75',v:'Versión 2',st:'pending'},{id:'pr2',n:'Tomate triturado 120×80',v:'Versión 3',st:'ok'}];
+let view='login';
+const eur=n=>n.toLocaleString('es-ES',{style:'currency',currency:'EUR'});
+function portal(){
+  const b=$('#pBody');
+  if(view==='login'){
+    $('#pBell').hidden=true;$('#demoFab').hidden=true;clearInterval(liveTimer);
+    b.innerHTML=`<div class="login"><h2>Tu cuenta, tus facturas</h2><p>Los clientes acceden con su correo para consultar facturas, seguir pedidos y aprobar pruebas sin llamar ni pedir duplicados.</p>
+    <div class="card"><label>Cliente de ejemplo</label><div class="fake-input">${client.mail}</div><button class="btn btn-primary" id="enter">Entrar con el cliente de ejemplo</button>
+    <ul class="bul"><li>Seguimiento del pedido en tiempo real, como una paquetería</li><li>Avisos por correo en cada fase</li><li>Facturas descargables en todo momento</li><li>Aprobación de pruebas de color online</li><li>Repetir un pedido con un clic</li></ul></div></div>`;
+    $('#enter').onclick=()=>{view='home';portal()};return;
+  }
+  const pend=proofs.filter(p=>p.st==='pending').length;
+  const unread=mails.filter(m=>!m.read).length;
+  const nav=[['home','Resumen'],['ord','Pedidos'],['notif','Avisos'+(unread?` <span class="count">${unread}</span>`:'')],['price','Precios'],['inv','Facturas'],['proof','Pruebas de color'+(pend?` <span class="count">${pend}</span>`:'')],['data','Mis datos']];
+  b.innerHTML=`<div class="dash"><aside class="side"><div class="who"><b>${client.name}</b><span>${client.mail}</span></div>${nav.map(([k,l])=>`<button data-v="${k}" ${view===k?'aria-current="page"':''}>${l}</button>`).join('')}</aside><div class="main" id="pMain"></div></div>`;
+  $$('.side button').forEach(x=>x.onclick=()=>{view=x.dataset.v;$('#portal').scrollTop=0;portal()});
+  clearInterval(liveTimer);updateBell();$('#demoFab').hidden=!(view==='track'||view==='notif'||view==='home'||view==='ord');
+  if(view!=='price')removeEventListener('resize',priceResize);
+  const m=$('#pMain');
+  if(view==='home'){
+    const due=invoices.filter(i=>i.st==='Pendiente');
+    m.innerHTML=`<h2>Hola de nuevo</h2><p class="hint">Esto es lo que tienes en marcha con nosotros.</p>
+    <div class="kpis"><div class="kpi"><span>Pedidos en curso</span><b>${orders.filter(o=>o.step<6).length}</b></div><div class="kpi"><span>Pendiente de pago</span><b>${eur(due.reduce((a,i)=>a+i.a,0))}</b></div><div class="kpi"><span>Próxima entrega</span><b>30 oct</b></div></div>
+    ${pend?`<div class="order"><div class="order-head"><div><b>Tienes ${pend} prueba de color esperando tu aprobación</b><br><span>No empezamos a imprimir hasta que la apruebes.</span></div><button class="btn btn-primary btn-sm" id="goProof">Revisar prueba</button></div></div>`:''}
+    ${orderCard(orders[0])}
+    <div class="order ocard" id="goPrice" role="button" tabindex="0"><div><b>Tu precio garantizado caduca en 15 días</b><br><span style="color:var(--ink-3);font-size:14px">Alcachofa en aceite 90×60 · oferta OF-26-219</span></div><div style="text-align:right"><div class="st">Ver precios</div></div></div>`;
+    const g=$('#goProof');if(g)g.onclick=()=>{view='proof';portal()};bindOrders();$('#goPrice').onclick=()=>{prSel='alc';view='price';$('#portal').scrollTop=0;portal()};
+  }
+  if(view==='inv'){
+    m.innerHTML=`<h2>Facturas</h2><p class="hint">Todas tus facturas, siempre disponibles. Ya no hace falta pedir duplicados.</p>
+    <div class="tbl-wrap"><table class="tbl"><thead><tr><th>Número</th><th>Fecha</th><th class="num">Importe</th><th>Estado</th><th></th></tr></thead><tbody>
+    ${invoices.map(i=>`<tr><td>${i.n}</td><td>${i.d}</td><td class="num">${eur(i.a)}</td><td><span class="pill ${i.st==='Pagada'?'ok':'wait'}">${i.st}${i.due?' · vence '+i.due:''}</span></td><td><button class="link-btn" data-inv="${i.n}">Ver factura</button></td></tr>`).join('')}
+    </tbody></table></div>`;
+    $$('[data-inv]').forEach(x=>x.onclick=()=>openInvoice(x.dataset.inv));
+  }
+  if(view==='ord'){m.innerHTML=`<h2>Pedidos</h2><p class="hint">Toca un pedido para seguirlo paso a paso, desde la máquina hasta tu almacén.</p>${orders.map(orderCard).join('')}`;bindOrders()}
+  if(view==='track')renderTrack(m);
+  if(view==='notif')renderNotif(m);
+  if(view==='price')renderPrice(m);
+  if(view==='proof'){
+    m.innerHTML=`<h2>Pruebas de color</h2><p class="hint">Revisa el arte final antes de imprimir. Si algo no cuadra, pídenos el cambio aquí mismo.</p>
+    ${proofs.map(p=>`<div class="proof"><div class="thumb"><svg viewBox="0 0 220 140"><rect x="4" y="4" width="212" height="132" rx="10" fill="#fff" stroke="#DCE0E5"/><rect x="20" y="22" width="180" height="30" rx="4" fill="${p.id==='pr1'?'#E35205':'#C8102E'}"/><rect x="20" y="66" width="120" height="8" rx="4" fill="#CDD3DA"/><rect x="20" y="82" width="150" height="8" rx="4" fill="#CDD3DA"/><rect x="20" y="104" width="60" height="16" rx="3" fill="none" stroke="#C9A15A"/></svg></div>
+    <div><h3>${p.n}</h3><p>${p.v} · ${p.st==='pending'?'<span class="pill wait">Pendiente de tu aprobación</span>':p.st==='ok'?'<span class="pill ok">Aprobada</span>':'<span class="pill info">Cambios solicitados</span>'}</p>
+    ${p.st==='pending'?`<div class="order-foot"><button class="btn btn-primary btn-sm" data-ap="${p.id}">Aprobar prueba</button><button class="btn btn-ghost btn-sm" data-ch="${p.id}">Pedir cambios</button></div>`:''}</div></div>`).join('')}`;
+    $$('[data-ap]').forEach(x=>x.onclick=()=>{proofs.find(p=>p.id===x.dataset.ap).st='ok';toast('Prueba aprobada. Pasa a impresión.');portal()});
+    $$('[data-ch]').forEach(x=>x.onclick=()=>{proofs.find(p=>p.id===x.dataset.ch).st='chg';toast('Cambios solicitados. Diseño te enviará una nueva versión.');portal()});
+  }
+  if(view==='data'){
+    m.innerHTML=`<h2>Mis datos</h2><p class="hint">Datos de facturación y personas con acceso a esta cuenta.</p>
+    <div class="tbl-wrap"><table class="tbl"><tbody><tr><td>Razón social</td><td>${client.name}</td></tr><tr><td>NIF</td><td>${client.nif}</td></tr><tr><td>Correo de facturación</td><td>${client.mail}</td></tr><tr><td>Usuarios con acceso</td><td>Compras, Calidad, Administración</td></tr></tbody></table></div>`;
+  }
+}
+function orderCard(o){
+  const done=o.step===6;
+  return `<div class="order ocard" data-trk="${o.n}" role="button" tabindex="0"><div><b>${o.p}</b><br><span style="color:var(--ink-3);font-size:14px">${o.n} · ${fmt(o.q)} etiquetas</span></div>
+  <div style="text-align:right"><div class="st">${steps[o.step]}</div><span style="color:var(--ink-3);font-size:13px">${done?'Entregado el '+o.eta:'Llega el '+o.eta}</span></div>
+  <div class="mini">${steps.map((_,i)=>`<i class="${i<=o.step?'on':''}"></i>`).join('')}</div></div>`;
+}
+function bindOrders(){
+  $$('[data-trk]').forEach(x=>{const go=()=>{trkOrder=x.dataset.trk;view='track';$('#portal').scrollTop=0;portal()};x.onclick=go;x.onkeydown=e=>{if(e.key==='Enter')go()}});
+}
+const ico={
+ check:'<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg>',
+ mail:'<svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>'
+};
+const stIcon=['<path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/>','<path d="M12 3l2.5 5 5.5.8-4 3.9.9 5.5L12 15.6 7.1 18.2l.9-5.5-4-3.9 5.5-.8z"/>','<rect x="4" y="8" width="16" height="9" rx="2"/><path d="M7 8V4h10v4M7 17v3h10v-3"/>','<circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M20 4L8.1 15.9M14.5 14.5L20 20M8.1 8.1L12 12"/>','<circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/>','<path d="M3 7h11v9H3zM14 10h4l3 3v3h-7"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/>','<path d="M3 9l9-6 9 6v11H3z"/><path d="M9 20v-6h6v6"/>'];
+function renderTrack(m){
+  const o=orders.find(x=>x.n===trkOrder),c=stepCopy[o.step],done=o.step===6;
+  const evOf=i=>o.ev.find(e=>e[0]===i);
+  const mailOf=i=>mails.find(x=>x.o===o.n&&x.st===i);
+  const liveP=o.step===2?0.42:o.step===4?0.76:o.step>4?1:o.step===3?1:0;
+  m.innerHTML=`<button class="link-btn" id="back" style="margin-bottom:16px">‹ Todos los pedidos</button>
+  <div class="trk-hero"><div class="code">${o.n} · ${fmt(o.q)} etiquetas · ${o.p}</div>
+   <h3>${c.t}</h3><p>${c.d}</p>
+   <div class="eta"><i></i>${done?'Entregado el '+o.eta:'Llega el '+o.eta+(o.slot?', de '+o.slot:'')}</div>
+   <div class="rail">${steps.map((_,i)=>`<div class="${i<o.step||done?'done':i===o.step?'now':''}"></div>`).join('')}</div>
+   <div class="rail-labels">${steps.map((t,i)=>`<span class="${i===o.step?'on':''}">${t}</span>`).join('')}</div></div>
+  <div class="trk-grid"><div class="card"><h4>Historial</h4><ol class="tl">${steps.map((t,i)=>{const e=evOf(i),ml=mailOf(i);const cls=i<o.step||done?'done':i===o.step?'now':'todo';
+     return `<li class="${cls}${o._fresh===i?' fresh':''}"><span class="dot">${cls==='done'?ico.check:''}</span><b>${t}</b>${e?`<small>${e[1]}${e[2]?' · '+e[2]:''}</small>`:cls==='todo'?'<small>Pendiente</small>':''}${ml?`<button class="mailchip" data-mail="${ml.id}">${ico.mail} Aviso enviado por correo</button>`:''}</li>`}).join('')}</ol></div>
+   <div>
+    <div class="card"><h4>${o.step>=5?'Envío':'Producción'}${o.step===2||o.step===4?'<span class="live-tag">En directo</span>':''}</h4>
+     ${o.step<5?`<div class="kv"><span>Máquina</span><b>${o.machine}</b><span>${o.step===4?'Etiquetas inspeccionadas':'Etiquetas impresas'}</span><b id="lvN">${fmt(Math.round(o.q*liveP))}</b></div>
+     <div class="live-bar"><i id="lvB" style="width:${liveP*100}%"></i></div>
+     <div class="kv"><span>Bobinas terminadas</span><b id="lvR">${Math.round(o.rolls*liveP)} de ${o.rolls}</b>${o.step===4?'<span>Defectos detectados</span><b>0</b>':''}</div>`
+     :`<div class="kv"><span>Transportista</span><b>${o.carrier}</b><span>Seguimiento</span><b>${o.trk}</b><span>Bultos</span><b>${o.boxes}</b><span>Entrega en</span><b style="max-width:22ch">${o.to}</b></div>`}
+    </div>
+    <div class="card"><h4>Avisos por correo</h4>${steps.map((t,i)=>`<label class="switch"><span>${t}</span><input type="checkbox" data-pref="${i}" ${prefs[i]?'checked':''} aria-label="Avisar en ${t}"></label>`).join('')}
+     <div class="rcpt">${recipients.map(r=>`<span>${r}</span>`).join('')}</div></div>
+   </div></div>`;
+  $('#back').onclick=()=>{view='ord';portal()};
+  $$('[data-mail]').forEach(x=>x.onclick=()=>{selMail=+x.dataset.mail;view='notif';portal()});
+  $$('[data-pref]').forEach(x=>x.onchange=()=>{prefs[+x.dataset.pref]=x.checked;toast(x.checked?'Te avisaremos por correo en esta fase.':'Ya no recibirás correo en esta fase.')});
+  o._fresh=null;
+  if(o.step===2||o.step===4){let p=liveP;liveTimer=setInterval(()=>{p=Math.min(.99,p+Math.random()*.012);const n=$('#lvN');if(!n){clearInterval(liveTimer);return}n.textContent=fmt(Math.round(o.q*p));$('#lvB').style.width=(p*100)+'%';$('#lvR').textContent=Math.round(o.rolls*p)+' de '+o.rolls},1200)}
+}
+function emailHtml(ml){
+  const o=orders.find(x=>x.n===ml.o),c=stepCopy[ml.st];
+  return `<div class="em"><div class="em-top"><i></i>Adhesivos Romero García</div>
+   <div class="em-hero"><div class="ico"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#009E62" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${stIcon[ml.st]}</svg></div>
+    <h1>${c.t}</h1><p>${c.d}</p>
+    <div class="dots">${steps.map((_,i)=>`<i class="${i<=ml.st?'on':''}"></i>`).join('')}</div></div>
+   <div class="box"><span>Pedido</span><b>${o.n}</b><span>Producto</span><b>${o.p}</b><span>Cantidad</span><b>${fmt(o.q)} etiquetas</b>${ml.st<6?`<span>Entrega prevista</span><b>${o.eta}</b>`:`<span>Entregado</span><b>${ml.time}</b>`}${ml.st===5?`<span>Seguimiento</span><b>${o.trk}</b>`:''}</div>
+   <a class="cta" href="#" onclick="return false">Seguir mi pedido</a>
+   <div class="foot">Recibes este aviso porque lo tienes activado en tu área de clientes.<br>Gestionar avisos · Adhesivos Romero García, S.L. · Beniaján, Murcia</div></div>`;
+}
+function renderNotif(m){
+  if(!mails.length){m.innerHTML='<h2>Avisos</h2><p class="hint">Aún no hay avisos.</p>';return}
+  if(!selMail||!mails.find(x=>x.id===selMail))selMail=mails[0].id;
+  const cur=mails.find(x=>x.id===selMail);cur.read=true;updateBell();
+  m.innerHTML=`<h2>Avisos</h2><p class="hint">Cada cambio de estado llega a tu correo y queda guardado aquí. Así se ve en la bandeja de entrada de tu equipo.</p>
+  <div class="inbox"><div class="mlist">${mails.map(x=>{const o=orders.find(q=>q.n===x.o);return `<button data-m="${x.id}" class="${x.id===selMail?'sel':''} ${x.read?'':'unread'} ${x.fresh?'fresh':''}"><span class="u"></span><span><b>${stepCopy[x.st].t}</b><small>${x.o} · ${x.time}</small></span></button>`}).join('')}</div>
+  <div class="mframe"><div class="hdr"><b>${stepCopy[cur.st].t} · ${cur.o}</b><span>De: Adhesivos Romero García &lt;avisos@romerogarcia.com&gt;</span><span>Para: ${recipients.join(', ')}</span></div><div class="body">${emailHtml(cur)}</div></div></div>`;
+  mails.forEach(x=>x.fresh=false);
+  $$('[data-m]').forEach(x=>x.onclick=()=>{selMail=+x.dataset.m;renderNotif(m);const nav=$('.side button[data-v=notif]');if(nav)nav.innerHTML='Avisos'+(mails.filter(q=>!q.read).length?` <span class="count">${mails.filter(q=>!q.read).length}</span>`:'');if(innerWidth<900)$('.mframe').scrollIntoView({behavior:'smooth',block:'start'})});
+}
+
+/* ---------- Precios dinámicos ---------- */
+const MONTHS=['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic','ene','feb','mar','abr'];
+const MLONG=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre','enero','febrero','marzo','abril'];
+const NOW=9; // octubre 2026 (último dato real)
+const MAT={
+ papel:{n:'Papel couché',c:'#eb6834',v:[100,101,103,104,103,105,106,108,108,109,110,111,112,113,114,114]},
+ pp:{n:'Polipropileno',c:'#1baf7a',v:[100,102,104,107,109,108,110,112,114,115,117,119,120,121,123,124]},
+ adh:{n:'Adhesivo',c:'#eda100',v:[100,100,101,102,103,104,104,105,106,106,107,108,108,109,110,110]},
+ tinta:{n:'Tintas',c:'#e87ba4',v:[100,99,99,100,101,101,102,102,103,103,103,104,104,105,105,106]},
+ foil:{n:'Foil oro',c:'#008300',v:[100,103,105,104,107,110,112,111,114,116,117,119,121,120,122,124]}
+};
+const MIXC='#2a78d6';
+const PRODUCTS=[
+ {id:'pim',p:'Pimiento de bola 100×70',spec:'Couché · estampación oro',price:0.0720,q:40000,offer:'OF-26-212',until:'26 de noviembre',days:30,total:30,share:.58,w:{papel:.42,adh:.22,tinta:.18,foil:.18}},
+ {id:'alc',p:'Alcachofa en aceite 90×60',spec:'Polipropileno blanco',price:0.0605,q:30000,offer:'OF-26-219',until:'11 de noviembre',days:15,total:30,share:.62,w:{pp:.55,adh:.25,tinta:.20}},
+ {id:'tom',p:'Tomate triturado 120×80',spec:'Couché · flexografía',price:0.0512,q:50000,offer:'OF-26-224',until:'7 de diciembre',days:41,total:45,share:.55,w:{papel:.55,adh:.25,tinta:.20}}
+];
+let prSel='pim',prAhead=3,prShow=null,prTable=false,prAlert=true;
+function mixSeries(pr){return MAT.papel.v.map((_,i)=>Object.entries(pr.w).reduce((t,[k,w])=>t+w*MAT[k].v[i],0))}
+function band(i){return i<=NOW?0:(i-NOW)*0.9} // incertidumbre creciente (puntos de índice)
+function projPrice(pr,ahead){const mx=mixSeries(pr),i=NOW+ahead,r=mx[i]/mx[NOW],lo=(mx[i]-band(i))/mx[NOW],hi=(mx[i]+band(i))/mx[NOW];
+  const f=x=>pr.price*(1+pr.share*(x-1));return{p:f(r),lo:f(lo),hi:f(hi),pct:(f(r)/pr.price-1)*100}}
+const e4=n=>n.toLocaleString('es-ES',{minimumFractionDigits:4,maximumFractionDigits:4})+' €';
+function priceResize(){const c=$('#pChart');if(c)drawPriceChart()}
+function renderPrice(m){
+  const pr=PRODUCTS.find(x=>x.id===prSel);
+  if(!prShow||prShow._for!==pr.id){prShow={mix:true};Object.keys(pr.w).sort((a,b)=>pr.w[b]-pr.w[a]).forEach((k,i)=>prShow[k]=i<2);prShow._for=pr.id}
+  const pj=projPrice(pr,prAhead),up=pj.pct>0.5;
+  const ringC=2*Math.PI*40,frac=pr.days/pr.total;
+  m.innerHTML=`<h2>Precios</h2><p class="hint">El precio de tu oferta se respeta hasta su fecha de validez. Después depende del coste de los materiales, y aquí ves hacia dónde va para planificar tus pedidos.</p>
+  <div class="chipset" role="group" aria-label="Etiqueta">${PRODUCTS.map(x=>`<button data-pr="${x.id}" aria-pressed="${x.id===prSel}">${x.p}</button>`).join('')}</div>
+  <div class="pr-top">
+   <div class="lock"><div><small>Precio garantizado · oferta ${pr.offer}</small><div class="big">${e4(pr.price)} <span>por etiqueta</span></div>
+     <p>Confirma antes del ${pr.until} y este es tu precio, aunque suban los materiales.</p><button class="btn btn-primary btn-sm" id="prConfirm">Confirmar pedido a este precio</button></div>
+    <div class="ring" aria-label="Quedan ${pr.days} días"><svg viewBox="0 0 96 96" width="96" height="96"><circle cx="48" cy="48" r="40" fill="none" stroke="rgba(255,255,255,.14)" stroke-width="7"/><circle cx="48" cy="48" r="40" fill="none" stroke="#34D399" stroke-width="7" stroke-linecap="round" stroke-dasharray="${ringC}" stroke-dashoffset="${ringC*(1-frac)}" transform="rotate(-90 48 48)"/></svg><b>${pr.days}<em>días</em></b></div></div>
+   <div class="card proj"><h4 style="margin-bottom:6px">Si lo repites dentro de…</h4>
+    <div class="seg" role="group" aria-label="Meses">${[1,2,3,4,5,6].map(k=>`<button data-ah="${k}" aria-pressed="${k===prAhead}">${MONTHS[NOW+k]}</button>`).join('')}</div>
+    <div class="val">${e4(pj.p)} <span>/ etiqueta previsto</span></div>
+    <div class="rng">Horquilla ${e4(pj.lo)} – ${e4(pj.hi)} · ${fmt(pr.q)} uds ≈ ${eur(pj.p*pr.q)}</div>
+    <span class="delta ${up?'up':'flat'}">${up?'▲ ':''}${pj.pct>=0?'+':''}${pj.pct.toFixed(1).replace('.',',')} % frente a tu precio de hoy</span>
+    <p class="tip">${up?`Si vas a necesitar esta etiqueta en ${MLONG[NOW+prAhead]}, te conviene adelantar el pedido o reservar stock con el precio actual.`:'El coste de los materiales de esta etiqueta está estable. Puedes pedir cuando lo necesites.'}</p>
+    <label class="switch" style="margin-top:8px"><span>Avisarme por correo si la previsión sube más de un 3 %</span><input type="checkbox" id="prAlert" ${prAlert?'checked':''}></label></div>
+  </div>
+  <div class="card chart-card"><h4>Coste de los materiales de tu etiqueta</h4><p class="sub">Índice 100 = enero 2026. Real hasta octubre; previsión hasta abril con su margen de incertidumbre.</p>
+   <div class="legend" role="group" aria-label="Series">${[['mix','Tu etiqueta',MIXC],...Object.keys(pr.w).map(k=>[k,MAT[k].n,MAT[k].c])].map(([k,n,c])=>`<button data-ser="${k}" aria-pressed="${!!prShow[k]}"><i style="background:${c}"></i>${n}${k!=='mix'?` · ${Math.round(pr.w[k]*100)} %`:''}</button>`).join('')}</div>
+   <div class="chart-wrap" id="pWrap"><svg id="pChart" role="img" aria-label="Evolución y previsión del coste de materiales"></svg><div class="ctip" id="pTip"></div></div>
+   <div id="pTable"></div>
+   <div class="chart-foot"><span>Índices simulados para la demo. En real se alimentan con los precios de tus proveedores de papel, film, adhesivo y tintas.</span><button class="link-btn" id="prTbl" style="font-size:13px">${prTable?'Ocultar tabla':'Ver como tabla'}</button></div></div>
+  <div class="card" style="margin-top:16px"><h4>De qué está hecha tu etiqueta</h4><div class="mix-bars">${Object.entries(pr.w).sort((a,b)=>b[1]-a[1]).map(([k,w])=>`<div><span>${MAT[k].n}</span><span class="bar"><i style="width:${w*100}%;background:${MAT[k].c}"></i></span><b>${Math.round(w*100)} %</b></div>`).join('')}</div>
+   <p style="margin:14px 0 0;font-size:14px;color:var(--ink-3)">Los materiales suponen alrededor del ${Math.round(pr.share*100)} % del precio de esta etiqueta. El resto (diseño, máquina, mano de obra) no fluctúa con el mercado.</p></div>`;
+  $$('[data-pr]').forEach(x=>x.onclick=()=>{prSel=x.dataset.pr;renderPrice(m)});
+  $$('[data-ah]').forEach(x=>x.onclick=()=>{prAhead=+x.dataset.ah;renderPrice(m)});
+  $$('[data-ser]').forEach(x=>x.onclick=()=>{const k=x.dataset.ser;if(k==='mix')return;prShow[k]=!prShow[k];x.setAttribute('aria-pressed',prShow[k]);drawPriceChart()});
+  $('#prConfirm').onclick=()=>toast(`Pedido confirmado a ${e4(pr.price)}. Te llegará la confirmación por correo.`);
+  $('#prAlert').onchange=e=>{prAlert=e.target.checked;toast(prAlert?'Te avisaremos si la previsión sube más de un 3 %.':'Aviso de precio desactivado.')};
+  $('#prTbl').onclick=()=>{prTable=!prTable;renderPrice(m)};
+  drawPriceChart();
+  removeEventListener('resize',priceResize);addEventListener('resize',priceResize);
+}
+function drawPriceChart(){
+  const pr=PRODUCTS.find(x=>x.id===prSel),svg=$('#pChart'),wrap=$('#pWrap');if(!svg)return;
+  const W=Math.max(300,wrap.clientWidth),mob=W<560,H=mob?250:320,L=34,R=mob?12:118,T=14,B=28;
+  const mx=mixSeries(pr);
+  const ser=[{k:'mix',n:'Tu etiqueta',c:MIXC,v:mx,w:3}].concat(Object.keys(pr.w).filter(k=>prShow[k]).map(k=>({k,n:MAT[k].n,c:MAT[k].c,v:MAT[k].v,w:2})));
+  let ymax=Math.max(...ser.flatMap(s=>s.v),...mx.map((v,i)=>v+band(i)));ymax=Math.ceil((ymax+2)/5)*5;const ymin=95;
+  const X=i=>L+(W-L-R)*i/15,Y=v=>T+(H-T-B)*(1-(v-ymin)/(ymax-ymin));
+  const path=(v,a,b)=>v.slice(a,b+1).map((y,j)=>(j?'L':'M')+X(a+j).toFixed(1)+' '+Y(y).toFixed(1)).join('');
+  let g='';
+  for(let t=100;t<=ymax;t+=5){g+=`<line x1="${L}" x2="${W-R}" y1="${Y(t)}" y2="${Y(t)}" stroke="#E5E5EA" stroke-width="1"/><text x="${L-8}" y="${Y(t)+4}" text-anchor="end" font-size="11" fill="#6E6E73">${t}</text>`}
+  MONTHS.forEach((mo,i)=>{if(mob&&i%3)return;g+=`<text x="${X(i)}" y="${H-8}" text-anchor="middle" font-size="11" fill="#6E6E73">${mo}${i===0||i===12?(i?' 27':' 26'):''}</text>`});
+  // zona de previsión
+  g+=`<rect x="${X(NOW)}" y="${T}" width="${X(15)-X(NOW)}" height="${H-T-B}" fill="#F5F5F7"/>`;
+  g+=`<text x="${X(NOW)+8}" y="${T+14}" font-size="11" fill="#6E6E73">Previsión</text>`;
+  // banda de incertidumbre del mix
+  const up=mx.slice(NOW).map((v,j)=>[X(NOW+j),Y(v+band(NOW+j))]),dn=mx.slice(NOW).map((v,j)=>[X(NOW+j),Y(v-band(NOW+j))]).reverse();
+  g+=`<path d="M${up.map(p=>p.join(' ')).join('L')}L${dn.map(p=>p.join(' ')).join('L')}Z" fill="${MIXC}" opacity=".12"/>`;
+  // regrid encima del fondo de previsión
+  for(let t=100;t<=ymax;t+=5){g+=`<line x1="${X(NOW)}" x2="${W-R}" y1="${Y(t)}" y2="${Y(t)}" stroke="#E5E5EA" stroke-width="1"/>`}
+  g+=`<line x1="${X(NOW)}" x2="${X(NOW)}" y1="${T}" y2="${H-B}" stroke="#1D1D1F" stroke-width="1" stroke-dasharray="2 3"/><text x="${X(NOW)-6}" y="${T+14}" text-anchor="end" font-size="11" font-weight="600" fill="#1D1D1F">Hoy</text>`;
+  // líneas: materiales debajo, tu etiqueta encima
+  ser.slice().reverse().forEach(s=>{g+=`<path d="${path(s.v,0,NOW)}" fill="none" stroke="${s.c}" stroke-width="${s.w}" stroke-linecap="round" stroke-linejoin="round"/><path d="${path(s.v,NOW,15)}" fill="none" stroke="${s.c}" stroke-width="${s.w}" stroke-dasharray="5 4" stroke-linecap="round"/>`});
+  g+=`<circle cx="${X(NOW)}" cy="${Y(mx[NOW])}" r="5" fill="${MIXC}" stroke="#fff" stroke-width="2"/>`;
+  // etiquetas directas al final (escritorio)
+  if(!mob){let labs=ser.map(s=>({s,y:Y(s.v[15])})).sort((a,b)=>a.y-b.y);for(let i=1;i<labs.length;i++)if(labs[i].y-labs[i-1].y<15)labs[i].y=labs[i-1].y+15;
+    labs.forEach(({s,y})=>{g+=`<circle cx="${X(15)+10}" cy="${y-4}" r="4" fill="${s.c}"/><text x="${X(15)+18}" y="${y}" font-size="12" fill="#1D1D1F" font-weight="${s.k==='mix'?700:500}">${s.n} ${s.v[15].toFixed(0)}</text>`})}
+  g+=`<g id="pHov" style="display:none"><line id="pHl" y1="${T}" y2="${H-B}" stroke="#1D1D1F" stroke-width="1"/>${ser.map((s,i)=>`<circle id="pHd${i}" r="5" fill="${s.c}" stroke="#fff" stroke-width="2"/>`).join('')}</g>`;
+  g+=`<rect id="pHit" x="${L}" y="${T}" width="${W-L-R}" height="${H-T-B}" fill="transparent"/>`;
+  svg.setAttribute('viewBox',`0 0 ${W} ${H}`);svg.setAttribute('width',W);svg.setAttribute('height',H);svg.innerHTML=g;
+  const tip=$('#pTip'),hov=$('#pHov'),hit=$('#pHit');
+  const show=ev=>{const r=svg.getBoundingClientRect();const cx=(ev.touches?ev.touches[0].clientX:ev.clientX)-r.left;const i=Math.max(0,Math.min(15,Math.round((cx-L)/((W-L-R)/15))));
+    hov.style.display='';$('#pHl').setAttribute('x1',X(i));$('#pHl').setAttribute('x2',X(i));ser.forEach((s,j)=>{const d=$('#pHd'+j);d.setAttribute('cx',X(i));d.setAttribute('cy',Y(s.v[i]))});
+    tip.innerHTML=`<b>${MLONG[i]} ${i<12?'2026':'2027'}${i>NOW?' · previsión':''}</b>`+ser.map(s=>`<div><span><i style="background:${s.c}"></i>${s.n}</span><span>${s.v[i].toFixed(1).replace('.',',')}${s.k==='mix'&&i>NOW?' ±'+band(i).toFixed(1).replace('.',','):''}</span></div>`).join('');
+    tip.classList.add('on');const tx=X(i)+14,tw=tip.offsetWidth;tip.style.left=(tx+tw>W?X(i)-tw-14:tx)+'px';tip.style.top=T+'px'};
+  const hide=()=>{hov.style.display='none';tip.classList.remove('on')};
+  hit.addEventListener('mousemove',show);hit.addEventListener('touchstart',show,{passive:true});hit.addEventListener('touchmove',show,{passive:true});hit.addEventListener('mouseleave',hide);hit.addEventListener('touchend',()=>setTimeout(hide,1500));
+  const tb=$('#pTable');
+  tb.innerHTML=prTable?`<div class="tbl-wrap"><table class="ptable"><thead><tr><th>Mes</th>${ser.map(s=>`<th>${s.n}</th>`).join('')}</tr></thead><tbody>${MONTHS.map((mo,i)=>`<tr class="${i>NOW?'fc':''}"><td>${MLONG[i]} ${i<12?'26':'27'}${i>NOW?' (prev.)':''}</td>${ser.map(s=>`<td>${s.v[i].toFixed(1).replace('.',',')}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`:'';
+}
+
+function updateBell(){const n=mails.filter(m=>!m.read).length;$('#bellN').textContent=n?n:'';$('#pBell').hidden=view==='login';const nb=$('.side button[data-v=notif]');if(nb)nb.innerHTML='Avisos'+(n?` <span class="count">${n}</span>`:'')}
+$('#pBell').onclick=()=>{view='notif';selMail=(mails.find(m=>!m.read)||mails[0]).id;portal()};
+$('#demoFab').onclick=()=>{
+  const o=orders.find(x=>x.n===trkOrder&&x.step<6)||orders.find(x=>x.step<6);
+  if(!o){toast('Todos los pedidos de la demo están entregados.');return}
+  o.step++;const t=nowStamp();
+  const notes={5:'Salida de Beniaján · '+o.boxes,6:'Firmado por: Almacén',3:'Troquel y rebobinado',4:'Visión artificial 100 %',2:o.machine,1:'Prueba aprobada'};
+  o.ev.push([o.step,t,notes[o.step]||'']);o._fresh=o.step;
+  if(o.step===6)o.eta=t.replace(' · ',', ');
+  let msg='Estado actualizado: '+steps[o.step];
+  if(prefs[o.step]){mkMail(o,o.step,t,false);mails[0].fresh=true;msg='Correo enviado a '+recipients[0]+' · '+stepCopy[o.step].t}
+  trkOrder=o.n;if(view!=='notif')view='track';
+  portal();$('#portal').scrollTo({top:0,behavior:'smooth'});
+  const bell=$('#pBell');bell.classList.remove('ring');void bell.offsetWidth;bell.classList.add('ring');
+  toast(msg);
+};
+function openInvoice(n){
+  const i=invoices.find(x=>x.n===n);const base=i.lines.reduce((t,l)=>t+l[1]*l[2],0);
+  $('#invBody').innerHTML=`<header><div><h3>Factura ${i.n}</h3><div class="muted">Fecha ${i.d}</div><div class="watermark">Documento de demostración</div></div>
+  <div class="muted" style="text-align:right">Adhesivos Romero García, S.L.<br>Camino de los Pinos, 116<br>30570 Beniaján, Murcia</div></header>
+  <div class="muted">Cliente</div><div><b>${client.name}</b><br>NIF ${client.nif}</div>
+  <table><thead><tr><th>Concepto</th><th class="r">Uds.</th><th class="r">Precio</th><th class="r">Importe</th></tr></thead><tbody>
+  ${i.lines.map(l=>`<tr><td>${l[0]}</td><td class="r">${fmt(l[1])}</td><td class="r">${l[2].toLocaleString('es-ES',{minimumFractionDigits:4})} €</td><td class="r">${eur(l[1]*l[2])}</td></tr>`).join('')}
+  </tbody></table>
+  <div class="tot"><div class="muted">Base imponible<br>IVA 21 %<br><b style="color:var(--ink)">Total</b></div><div style="text-align:right">${eur(base)}<br>${eur(i.a-base)}<br><b>${eur(i.a)}</b></div></div>
+  <div class="acts"><button class="btn btn-ghost btn-sm" id="invClose">Cerrar</button><button class="btn btn-primary btn-sm" id="invPrint">Descargar PDF</button></div>`;
+  $('#invModal').classList.add('open');
+  $('#invClose').onclick=()=>$('#invModal').classList.remove('open');
+  $('#invPrint').onclick=()=>window.print();
+}
+$('#invModal').addEventListener('click',e=>{if(e.target.id==='invModal')e.currentTarget.classList.remove('open')});
+$$('[data-open-portal]').forEach(b=>b.addEventListener('click',()=>{$('#portal').classList.add('open');document.body.style.overflow='hidden';portal()}));
+$('#pClose').onclick=()=>{$('#portal').classList.remove('open');document.body.style.overflow='';view='login'};
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){if($('#invModal').classList.contains('open'))$('#invModal').classList.remove('open');else if($('#portal').classList.contains('open'))$('#pClose').click()}});
+/* ---------- Anatomía (scroll) y parallax de las bandas a sangre ---------- */
+(()=>{
+  const sec=$('#anatomia'),lays=[...document.querySelectorAll('#stack .lay')],items=[...document.querySelectorAll('#anatList li')],shadow=$('#stack .shadow');
+  const bands=$$('.band').map(b=>[b,b.querySelector('img')]);
+  const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const ease=t=>1-Math.pow(1-t,3);
+  let target=0,cur=reduce?.35:0,lastAct=-1,running=false,inView=false;
+  const read=()=>{const r=sec.getBoundingClientRect();const total=r.height-innerHeight;target=reduce?.35:Math.min(1,Math.max(0,-r.top/Math.max(1,total)))};
+  function paint(p){
+    const gap=reduce?46:(1-ease(p))*95+3;
+    for(let i=0;i<lays.length;i++)lays[i].style.transform=`translate3d(0,${(-(i-2)*gap*.62).toFixed(2)}px,0)`;
+    shadow.style.transform=`translate3d(0,${(70+gap*1.3).toFixed(2)}px,0) scale(${(1+gap/260).toFixed(3)})`;shadow.style.opacity=(.55+.45*(1-gap/98)).toFixed(3);
+    const act=Math.min(4,Math.floor(p*5.001)),done=p>.98;
+    const key=done?5:act;
+    if(key!==lastAct){lastAct=key;
+      lays.forEach((l,i)=>{l.classList.toggle('hi',i===act&&!done);l.style.opacity=(i<=act||done)?1:.28});
+      items.forEach((li,i)=>li.classList.toggle('on',i===act));}
+  }
+  function loop(){
+    cur+=(target-cur)*.2;
+    if(Math.abs(target-cur)<.0005)cur=target;
+    paint(cur);
+    if(cur!==target){requestAnimationFrame(loop)}else running=false;
+  }
+  function kick(){if(!running){running=true;requestAnimationFrame(loop)}}
+  let bandTick=false;
+  addEventListener('scroll',()=>{
+    if(inView){read();kick()}
+    if(bands.length&&!reduce&&!bandTick){bandTick=true;requestAnimationFrame(()=>{bands.forEach(([b,img])=>{if(!img||!img.isConnected)return;const r=b.getBoundingClientRect();if(r.bottom>0&&r.top<innerHeight)img.style.transform=`translate3d(0,${(r.top*-0.12).toFixed(1)}px,0) scale(1.04)`});bandTick=false})}
+  },{passive:true});
+  addEventListener('resize',()=>{read();kick()});
+  if('IntersectionObserver' in window){
+    new IntersectionObserver(e=>{inView=e[0].isIntersecting;if(inView){read();kick()}},{rootMargin:'200px 0px'}).observe(sec);
+    // pausar animaciones continuas cuando no se ven
+    const hero=$('.hero');new IntersectionObserver(e=>hero.classList.toggle('paused',!e[0].isIntersecting)).observe(hero);
+    const press=$('#tecnologia');new IntersectionObserver(e=>{press.querySelectorAll('svg').forEach(v=>{try{e[0].isIntersecting?v.unpauseAnimations():v.pauseAnimations()}catch(_){}})}).observe(press);
+    const cfg=$('#configurador');new IntersectionObserver(e=>{const v=$('#labelSvg');try{e[0].isIntersecting?v.unpauseAnimations():v.pauseAnimations()}catch(_){}}).observe(cfg);
+  }else{inView=true}
+  read();cur=target;paint(cur);
+})();
+})();
+</script>
+</body>
+</html>
